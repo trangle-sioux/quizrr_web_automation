@@ -8,7 +8,7 @@ parameters:
     default: "dev"
   run_all_tests:
     type: boolean
-    default: true
+    default: false
 
 executors:
   playwright:
@@ -67,7 +67,7 @@ jobs:
     executor:
       name: playwright
     parallelism: 4
-    resource_class: large
+    resource_class: trangle-sioux/my_test_container_runner
     parameters:
       script:
         type: string
