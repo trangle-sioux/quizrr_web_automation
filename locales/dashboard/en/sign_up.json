@@ -1,0 +1,88 @@
+{
+  "create_facility_team": {
+    "description": "Now, set up your team.",
+    "next": "Continue",
+    "team_name_label": "Your team name",
+    "title": "Congratulations"
+  },
+  "error_codes": {
+    "409": "This email already exists, try to sign in"
+  },
+  "finish": {
+    "create_member_message": "You have been successfully added to the team <0>{{teamName}}</0>!",
+    "create_team_message": "You have successfully setup the team <0>{{teamName}}</0>!",
+    "skip": "Skip for now",
+    "start_training": "Start training",
+    "title": "Congratulations!"
+  },
+  "general_error": "There is an error occurs",
+  "invite_members": {
+    "by_email": "Sign up with email",
+    "by_non_email": "Sign up without email",
+    "copy_invite_link": "Copy invite link",
+    "copy_link": "Copy link",
+    "description": "Start inviting colleagues to the training. You can always invite more colleagues later.",
+    "download_qr_code": "Download QR code to invite colleagues",
+    "email_label": "Coworker email#{{index}}",
+    "email_placeholder": "Ex john@quizrr.se, maria@quizrr.se",
+    "errors": {
+      "email_duplicated": "Email duplicated"
+    },
+    "get_qr_code": "Get QR-code",
+    "guide": "If you have a colleague who don't use email",
+    "invite_by_email": "Invite colleagues by sending them an email",
+    "invite_by_non_email": "Go straight to the training without registering",
+    "invite_link": "Share this link to invite colleagues to register with email",
+    "invite_non_email_link": "Share this link to invite colleagues to register with email",
+    "invite_status": {
+      "fail": "Error occurred",
+      "success": {
+        "by_email": "Invite success",
+        "by_link": "Link copied",
+        "by_qr_code": "QR-code saved"
+      }
+    },
+    "invite_team_member": "Invite colleagues",
+    "member_without_email": "For member without an email",
+    "role": "Role",
+    "roles": {
+      "player": "can train",
+      "team_admin": "can admin"
+    },
+    "send_invites": "Send invites",
+    "share_qr_code": "Share this QR code to invite team member",
+    "skip": "Skip for now",
+    "title": "Your organization has been created"
+  },
+  "sign_up": {
+    "already_have_account": "Already have an account? Click here to <0>sign in</0>",
+    "continue": "Continue",
+    "description": "Create a free account to get started.",
+    "invalid_url_message": "Invalid url",
+    "title": "Welcome to Quizrr"
+  },
+  "steps": {
+    "create_team": "Team's name",
+    "finish": "Finish",
+    "invite_members": "Team's member",
+    "sign_up": "Sign up",
+    "verify": "Verify"
+  },
+  "teams_name": {
+    "description": "Now, set up your organization.",
+    "employee_number": "Number of employees",
+    "facility_brand_id": "Provide your facility ID",
+    "market": "Market",
+    "next": "Continue",
+    "region": "Region",
+    "team_name_label": "Your organization name",
+    "title": "You've successfully signed up"
+  },
+  "verification": {
+    "description": "Check your inbox. We have sent a 6-digit code to <0>{{email}}</0>, enter it below to verify your email address.",
+    "resend_verification_code": "Didn't receive a code? Click here to <0>resend email</0>",
+    "send_verification_code_success": "Send OTP successfully",
+    "title": "Verify your email address",
+    "verification_code": "6-digit verification code"
+  }
+}

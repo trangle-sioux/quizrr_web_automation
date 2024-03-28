@@ -1,0 +1,24 @@
+{
+  "additional_information": "Additional Information",
+  "contract_period": "Contract period (months)",
+  "created_by": "Created By",
+  "discount": "Discount",
+  "form": {
+    "discount_code": "Discount code",
+    "discount_link": "Discount link",
+    "generate_discount_code": "Generate discount code",
+    "update_discount_code": "Update discount code"
+  },
+  "inviting_brand": "Inviting Brand",
+  "management": {
+    "create_a_new_discount_code": "Create a new discount code",
+    "search_discount_codes": "Search discount codes",
+    "title": "Manage discount codes"
+  },
+  "month": "month(s)",
+  "operation_owner": "Operations owner",
+  "prepaid_tablets": "Prepaid Tablets",
+  "sale_owner": "Sales owner",
+  "setup_fee": "Setup Fee",
+  "training_license": "Training License"
+}

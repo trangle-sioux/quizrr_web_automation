@@ -1,0 +1,109 @@
+{
+  "baseline_benchmark": "Benchmark Baseline",
+  "baseline_result": "Baseline result",
+  "benchmark_result": "Benchmark result",
+  "brand_overview": "Brand overview",
+  "brands": "Brands",
+  "employees": "Employees",
+  "employees_trained": "Employees trained",
+  "facility_result": "Facility result",
+  "factories": "Factories",
+  "factories_by_market": "Factories per market",
+  "follow-up_benchmark": "Benchmark Follow-up",
+  "follow-up_result": "Follow-up result",
+  "organization_overview": "Organization overview",
+  "overview": "Overview",
+  "result_per_module": "Result per module",
+  "sessions": "Modules completed",
+  "sessions_conducted": "Modules completed",
+  "terminology": {
+    "average_number_of_employees": {
+      "content": [
+        "Average number of employees as reported by the production units at the start of the agreement period divided by",
+        "<LI>Total for the brand</LI>",
+        "<LI>Total per market</LI>",
+        "Target for the training is to reach ALL employees in ALL factories. Note: Due to employee turnover the number of employees training might surpass the total number of employees."
+      ],
+      "title": "Average number of employees"
+    },
+    "baseline_endline_survey": {
+      "content": [
+        "Quizrr’s digital baseline and follow-up survey measures knowledge levels in the production unit, before and after the training, using a recommended number of employees and demographics. ",
+        "Baseline and follow-up results are specified in % of correct answers."
+      ],
+      "title": "Baseline & Follow-up survey"
+    },
+    "benchmark_scores": {
+      "content": [
+        "Benchmark scores shows the average baseline and follow-up results for all factories in a specific market training within the same program. The benchmark can be used to compare knowledge levels in a training program of an individual production unit to a training program for all production units in the market. "
+      ],
+      "title": "Benchmark scores"
+    },
+    "factory_training_overview": {
+      "content": [
+        "For in-depth information regarding each factory’s performance, their training programs, topics and learning modules please visit Quizrr Dashboard and log in with your credentials."
+      ],
+      "title": "Factory training overview"
+    },
+    "market": {
+      "content": [
+        "The country where production units are located and where the training program is performed. "
+      ],
+      "title": "Market"
+    },
+    "number_of_employees_in_training": {
+      "content": [
+        "Total number of employees that are registered for the training in all production units and markets, divided by",
+        "<LI>Gender; female, male, unspecified</LI>",
+        "<LI>Job level; workers, mid-managers/supervisors, managers.</LI>"
+      ],
+      "title": "Number of employees in training"
+    },
+    "period": {
+      "content": [
+        "Selected time frame for the report with aggregated training data for the period. "
+      ],
+      "title": "Period"
+    },
+    "quizrr_brand_report": {
+      "content": [
+        "The report provides an overview of training activities with Quizrr for a selected period per market and training program. It also includes baseline/follow-up survey results and a market specific benchmark.",
+        "For in-depth information regarding each production units’ performance, their training programs, topics and learning modules please visit Quizrr Dashboard and log in with your credentials."
+      ],
+      "title": "Quizrr Brand Report"
+    },
+    "quizrr_organization_report": {
+      "content": [
+        "The report provides an overview of training activities with Quizrr for a selected period per market and training program. It also includes baseline/follow-up survey results and a market specific benchmark.",
+        "For in-depth information regarding each production units’ performance, their training programs, topics and learning modules please visit Quizrr Dashboard and log in with your credentials."
+      ],
+      "title": "Quizrr Organisation Report"
+    },
+    "training_program": {
+      "content": [
+        "List of training programs conducted by the production units for each market for the selected time period."
+      ],
+      "title": "Training program "
+    },
+    "training_results_and_benchmark_scores": {
+      "content": [
+        "Note that training results and benchmark scores usually are, and should be high, as Quizrr is a training and not a test, aiming to build capacity and knowledge and using interactive live-action drama, animation and quiz as a methodology. "
+      ],
+      "title": "Training results and benchmark scores"
+    },
+    "training_sessions": {
+      "content": [
+        "Number of completed training modules conducted by the employees."
+      ],
+      "title": "Training modules completed"
+    },
+    "training_topics_and_modules": {
+      "content": [
+        "Overview of topics and learning modules in each training program."
+      ],
+      "title": "Training topics and modules"
+    }
+  },
+  "training_information": "Training information",
+  "training_overview": "Training overview"
+}

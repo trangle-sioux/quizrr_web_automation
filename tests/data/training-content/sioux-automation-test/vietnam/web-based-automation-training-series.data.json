@@ -1,0 +1,1801 @@
+{
+  "id": "sioux_automation_test",
+  "market": "vietnam",
+  "app": {
+    "learning_modules": [
+      "639150a0a9cf2a4a88f29b04",
+      "639150a0a9cf2a4a88f29b00",
+      "639150a0a9cf2a4a88f29afb",
+      "639150a0a9cf2a4a88f29b03"
+    ],
+    "locales": ["en"],
+    "name": {
+      "en": "Web Based Automation Training Series"
+    },
+    "version": "v1"
+  },
+  "learning_modules": {
+    "639150a0a9cf2a4a88f29b04": {
+      "id": "roles_responsibilities",
+      "name": {
+        "en": "Roles & Responsibilities"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "-M6Zx6jYn8PdYX-kSqAG",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7FssQyjlTNcTn0Y",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7m7c_4_eVNBFhT6",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8SALx_nj0JDyPpW",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFUbl3-x6kQxyb79d",
+          "type": "movie"
+        },
+        {
+          "key": "-M6Zx8yLxsmj5hQekH3E",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9ak_WrEP4sd_1YD",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-M6Zx8SALx_nj0JDyPpW",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8BUoBbTUVQKLGqI",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7m7c_4_eVNBFhT6",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7WT4WUMRLknJEq-",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7FssQyjlTNcTn0Y",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7-G2zN1D0l6JdOE",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9Uc6TSNXhwmKZIg",
+          "type": "movie"
+        },
+        {
+          "key": "-MrOFR54UO4ZzCf93KR7",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-M6Zx7FssQyjlTNcTn0Y",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7m7c_4_eVNBFhT6",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8SALx_nj0JDyPpW",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [],
+      "post_training_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    },
+    "639150a0a9cf2a4a88f29b00": {
+      "id": "executive_summary",
+      "name": {
+        "en": "Executive Summary"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "-M6ZwrLbphVipTWOULKu",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zws0AT7KuMLCx_NaM",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwqpIphaQW5Hw-k-E",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwtCyKeoHxbsvMqB-",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwqWNFgGIahLv1Zc-",
+          "type": "movie"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-M6Zwr501WS3dX6oAYzi",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zwrh0y9WWdsKFcA-s",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwsJQX5Su6AAx4GZX",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwumPFbsQQguQiz8Q",
+          "type": "movie"
+        },
+        {
+          "key": "-M6ZwsxMLUwey3m_zcwp",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwtTXzYPsXWuuQAIj",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-M6ZwqpIphaQW5Hw-k-E",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwrLbphVipTWOULKu",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "-M6ZwqpIphaQW5Hw-k-E",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwrLbphVipTWOULKu",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zws0AT7KuMLCx_NaM",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    },
+    "639150a0a9cf2a4a88f29afb": {
+      "id": "financial_services",
+      "name": {
+        "en": "Digital Financial Services"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "-LevrdK3_RhffFQwjoHP",
+          "type": "question"
+        },
+        {
+          "key": "-Levs6QIaQxuK8qsxhO2",
+          "type": "question"
+        },
+        {
+          "key": "-LevsRB-Q98AG94oyaYD",
+          "type": "question"
+        },
+        {
+          "key": "-M0ON1H-S9RYsnRsnMj1",
+          "type": "movie"
+        },
+        {
+          "key": "-LevpNNrzVbNVJJqFT4W",
+          "type": "question"
+        },
+        {
+          "key": "-LevmszXxDgIGQ6rndbY",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-LevmszXxDgIGQ6rndbY",
+          "type": "question"
+        },
+        {
+          "key": "-LevpaTgQNYYNuchAFoe",
+          "type": "question"
+        },
+        {
+          "key": "-LevrsdxxbA00jMxxyck",
+          "type": "question"
+        },
+        {
+          "key": "-LevsJzyiYZYNq4Rv-1j",
+          "type": "question"
+        },
+        {
+          "key": "-Levs__hPCZM1bSZuYHR",
+          "type": "question"
+        },
+        {
+          "key": "-M0ON1H-S9RYsnRsnMj1",
+          "type": "movie"
+        },
+        {
+          "key": "-LevtdUPNVdkoOFZITkS",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-LevmszXxDgIGQ6rndbY",
+          "type": "question"
+        },
+        {
+          "key": "-LevpaTgQNYYNuchAFoe",
+          "type": "question"
+        },
+        {
+          "key": "-LevrsdxxbA00jMxxyck",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "-LevpNNrzVbNVJJqFT4W",
+          "type": "question"
+        },
+        {
+          "key": "-LevrdK3_RhffFQwjoHP",
+          "type": "question"
+        },
+        {
+          "key": "-Levs6QIaQxuK8qsxhO2",
+          "type": "question"
+        },
+        {
+          "key": "-LevsRB-Q98AG94oyaYD",
+          "type": "question"
+        },
+        {
+          "key": "-LevuFR6V_kmWbgStHIv",
+          "type": "question"
+        },
+        {
+          "key": "-M0O4sDxzrtiJcGweRZg",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    },
+    "639150a0a9cf2a4a88f29b03": {
+      "id": "nomination_election",
+      "name": {
+        "en": "Nomination & Election"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "-M6Zx3ASC2zMAKOC4WtP",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx3gO7J_YsabWYxVp",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx4aDWUE55UXZdefC",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx56KMIZuHQRldbUc",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx4qiBRaiuv234gwH",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZwsqCbcmh6_tn7pgd",
+          "type": "movie"
+        },
+        {
+          "key": "-M6Zx5cOwjHFIovD72IQ",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx68agOGEg6L_F-yu",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-M6Zx3ASC2zMAKOC4WtP",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx3gO7J_YsabWYxVp",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx4DOioTqTverH1WL",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx4qiBRaiuv234gwH",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx5MsuX9ndAc5WFg0",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx56KMIZuHQRldbUc",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx6P2RUOWlqIHEs_k",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFMhxcgAXOr-jXxTb",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "-M6Zx4aDWUE55UXZdefC",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx56KMIZuHQRldbUc",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx5cOwjHFIovD72IQ",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    }
+  },
+  "questions": {
+    "-LevmszXxDgIGQ6rndbY": {
+      "answers": {
+        "-Levnb21Us_KS2Ml5tHY": {
+          "text": {
+            "en": "She could transfer the money directly and quickly from her digital account "
+          }
+        },
+        "-LevneS3Ju3gZVT65_7h": {
+          "text": {
+            "en": "She checked how much money she had on her account"
+          }
+        },
+        "-LevngFJnWEwlEGpiNtW": {
+          "text": {
+            "en": "She borrowed money from her friends"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-Levnb21Us_KS2Ml5tHY": true
+      },
+      "text": {
+        "en": "How did Ratna use her digital account when she heard about her son's accident?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevpNNrzVbNVJJqFT4W": {
+      "answers": {
+        "-LevpPjwaDmY--lT_Zju": {
+          "text": {
+            "en": "The hospital could receive the money and start the treatment immediately, instead of waiting for Ratna to get there"
+          }
+        },
+        "-LevpTEFgWU5JDoYxk9t": {
+          "text": {
+            "en": "She became more stressed as she had to go back to her home village to digitally transfer the money to her family members"
+          }
+        },
+        "-LevpXe-_35Bsptp8KKm": {
+          "text": {
+            "en": "It did not affect Ratna's situation in any significant way"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevpPjwaDmY--lT_Zju": true
+      },
+      "text": {
+        "en": "How did being able to transfer money digitally affect Ratna's situation?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevpaTgQNYYNuchAFoe": {
+      "answers": {
+        "-LevpdKtZHacxG2FXJYA": {
+          "text": {
+            "en": "She told her to cross check with her family to ensure it wasn't a fraud call"
+          }
+        },
+        "-Levpf_SDzSoP2uMKJs3": {
+          "text": {
+            "en": "She told her to ensure that she's sending the right amount"
+          }
+        },
+        "-LevphjCr5wcPWBikgGH": {
+          "text": {
+            "en": "She told her not to ask the agent to help her send the money"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevpdKtZHacxG2FXJYA": true
+      },
+      "text": {
+        "en": "What did Shabana tell Ratna as she was sending money for her son's treatment?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevrdK3_RhffFQwjoHP": {
+      "answers": {
+        "-LevrgZaB8Uqf1OINRSz": {
+          "text": {
+            "en": "If the investment offer sounds too good to be true, you should cross check and ensure that it isn't a scam"
+          }
+        },
+        "-Levrj1IOEsBjfZa-GIO": {
+          "text": {
+            "en": "You should look for investment schemes with high risk as they always have higher returns"
+          }
+        },
+        "-Levrl2S-N8v-1IUlcBz": {
+          "text": {
+            "en": "You don't have to worry while investing because it is risk-free"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevrgZaB8Uqf1OINRSz": true
+      },
+      "text": {
+        "en": "What is important to think about when being offered investment schemes?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevrsdxxbA00jMxxyck": {
+      "answers": {
+        "-Levrw-T9g6Nl2NOfsOH": {
+          "text": {
+            "en": "To avoid paying undue charges and excessive fees"
+          }
+        },
+        "-LevryfQzrz88olJHMtE": {
+          "text": {
+            "en": "Because agents don't know the charges that apply"
+          }
+        },
+        "-Levs1-PAGL4bLl42aZw": {
+          "text": {
+            "en": "The charges for cashing in or out could be different every time"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-Levrw-T9g6Nl2NOfsOH": true
+      },
+      "text": {
+        "en": "While agents can be very helpful, why is it important to know what charges apply for different services, like cashing in or out?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-Levs6QIaQxuK8qsxhO2": {
+      "answers": {
+        "-Levs8s6T1BZdn1MqoIE": {
+          "text": {
+            "en": "The factory management/payroll officer"
+          }
+        },
+        "-LevsB5txf9cQ6hIokJK": {
+          "text": {
+            "en": "Your friends"
+          }
+        },
+        "-LevsEA1VDkOVp_AXVpv": {
+          "text": {
+            "en": "Bank staff"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-Levs8s6T1BZdn1MqoIE": true
+      },
+      "text": {
+        "en": "Who do you contact in case an agent asks you for undue charges to process a cash in or cash out? "
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevsJzyiYZYNq4Rv-1j": {
+      "answers": {
+        "-LevsNN4q7D0kxv3LxrV": {
+          "text": {
+            "en": "False"
+          }
+        },
+        "-LevsOKqVIWhNfnfSw5N": {
+          "text": {
+            "en": "True"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevsNN4q7D0kxv3LxrV": true
+      },
+      "text": {
+        "en": "It's okay to share your PIN code with agents/bank officer/colleagues."
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevsRB-Q98AG94oyaYD": {
+      "answers": {
+        "-LevsT3Up-4al0DiWMuW": {
+          "text": {
+            "en": "They could steal your money"
+          }
+        },
+        "-LevsUs7DK05uCxZd1BL": {
+          "text": {
+            "en": "They could pay your bills"
+          }
+        },
+        "-LevsWYY0IMdwFFIq39b": {
+          "text": {
+            "en": "They could get you a good investment scheme "
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevsT3Up-4al0DiWMuW": true
+      },
+      "text": {
+        "en": "What is likely to happen if someone has access to your account?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-Levs__hPCZM1bSZuYHR": {
+      "answers": {
+        "-LevsbueJUUYeDQ3t5zb": {
+          "text": {
+            "en": "Never share your pin code with anyone"
+          }
+        },
+        "-Levsdn2cp8FuClwJ4Cb": {
+          "text": {
+            "en": "Transfer the money to a family member's account"
+          }
+        },
+        "-LevsfgzZ7nemdyYI4uO": {
+          "text": {
+            "en": "Cash out all your money and hide it"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevsbueJUUYeDQ3t5zb": true
+      },
+      "text": {
+        "en": "What can you do in order to ensure no one else can access the money in your digital account?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevtdUPNVdkoOFZITkS": {
+      "answers": {
+        "-Levti5pL4HYBnwMu7wq": {
+          "text": {
+            "en": "Memorize it so it is safe in your head"
+          }
+        },
+        "-Levto46GPm89wJrqPtw": {
+          "text": {
+            "en": "Save it in your phone"
+          }
+        },
+        "-LevtpZYoBrM_J3JHc0S": {
+          "text": {
+            "en": "Tell a few of your friends or family members, so they can remember it for you"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-Levti5pL4HYBnwMu7wq": true
+      },
+      "text": {
+        "en": "A written down PIN code makes it easier for someone to access your money, especially if they also have access to your phone. What should you do instead?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-LevuFR6V_kmWbgStHIv": {
+      "answers": {
+        "-LevuHMRfN1J-vjsUZJo": {
+          "text": {
+            "en": "Talk to the factory management/payroll officer"
+          }
+        },
+        "-LevuJ0H6rqqEOnFk9nK": {
+          "text": {
+            "en": "Talk to your friends"
+          }
+        },
+        "-LevuKdN6w3BdSvGITT2": {
+          "text": {
+            "en": "Buy a new SIM card"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-LevuHMRfN1J-vjsUZJo": true
+      },
+      "text": {
+        "en": "What can you do in case you lose your SIM card or your account is blocked? "
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M0O4sDxzrtiJcGweRZg": {
+      "answers": {
+        "-M0O4eMcDRgetIcR-X45": {
+          "text": {
+            "en": "The hospital could recieve the money and start the treatment immediately, instead of waiting for Sophat to get there"
+          }
+        },
+        "-M0O4jXQbVHWeuQWjoBT": {
+          "text": {
+            "en": "She became more stressed as she had to go to her village to digitally send the money to her sister"
+          }
+        },
+        "-M0O4nyrq9vo0by0tVKk": {
+          "text": {
+            "en": "It did not affect Sophat's situation in any significant way"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M0O4eMcDRgetIcR-X45": true
+      },
+      "text": {
+        "en": "How did being able to send money digitally affect Sophat's situation?"
+      },
+      "title": {
+        "en": ""
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwqpIphaQW5Hw-k-E": {
+      "answers": {
+        "-M6ZwqwakWAwewhpaa5g": {
+          "text": {
+            "en": "It can contribute to improvements that can help the workers and the factory."
+          }
+        },
+        "-M6Zwr0HFumim7tP61eM": {
+          "text": {
+            "en": "It can contribute to reduced need for grievance channels and consultation."
+          }
+        },
+        "-M6Zwr2eRO1OxkvuSIGu": {
+          "text": {
+            "en": "It can reduce the need for workplace committees and factory level union."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwqwakWAwewhpaa5g": true
+      },
+      "text": {
+        "en": "How can worker feedback and suggestions impact the factory?"
+      },
+      "title": {
+        "en": "Feedback"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zwr501WS3dX6oAYzi": {
+      "answers": {
+        "-M6ZwrCE67SPyAMMjyf3": {
+          "text": {
+            "en": "Workers will have a good overview of what is going on in the factory, so they know what may be causing the problem"
+          }
+        },
+        "-M6ZwrGwXoo9Nxs10DN6": {
+          "text": {
+            "en": "Workers’ opinions and thoughts are not very important."
+          }
+        },
+        "-M6ZwrJHnjj-RMZeaLAe": {
+          "text": {
+            "en": "By listening to workers, the management can discipline the workers that have the wrong opinion."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwrCE67SPyAMMjyf3": true
+      },
+      "text": {
+        "en": "Why is it crucial that workers are heard?"
+      },
+      "title": {
+        "en": "Engagement"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:28:40.703Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwrLbphVipTWOULKu": {
+      "answers": {
+        "-M6ZwrSl3jpkr3IvsWfI": {
+          "text": {
+            "en": "Structured ways for employees to raise issues and seek solutions jointly with management."
+          }
+        },
+        "-M6ZwrZOOr3jbHeJgVVl": {
+          "text": {
+            "en": "Structured ways for the management to be polite and nice to workers"
+          }
+        },
+        "-M6Zwrcmj_tncvlaU5LC": {
+          "text": {
+            "en": "One-way communication from management to workers regarding the importance of worker-management cooperation."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwrSl3jpkr3IvsWfI": true
+      },
+      "text": {
+        "en": "Workplace dialogue is an essential part of a company’s structure. What is workplace dialogue?"
+      },
+      "title": {
+        "en": "Dialogue"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zwrh0y9WWdsKFcA-s": {
+      "answers": {
+        "-M6ZwrqSmTx3eY_0PRQ-": {
+          "text": {
+            "en": "Regular meetings with participants from both management and worker representative committee members."
+          }
+        },
+        "-M6ZwrvY3IxugUeWJ6C0": {
+          "text": {
+            "en": "Monthly management meetings."
+          }
+        },
+        "-M6ZwryKo-Hp_8G8Je1J": {
+          "text": {
+            "en": "The annual employee feast."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwrqSmTx3eY_0PRQ-": true
+      },
+      "text": {
+        "en": "To improve discussions and negotiations between workers and managers, the factory must set up systems for dialogue. What is a correct example of workplace dialogue?"
+      },
+      "title": {
+        "en": "Dialogue"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-28T08:07:09.084Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zws0AT7KuMLCx_NaM": {
+      "answers": {
+        "-M6Zws8M21PVe1XLGHxO": {
+          "text": {
+            "en": "Rumors may make employees feel insecure and unable focus on their work tasks."
+          }
+        },
+        "-M6ZwsDkmdfT996Y7YR_": {
+          "text": {
+            "en": "Rumors will make the factory more efficient. "
+          }
+        },
+        "-M6ZwsG_ZOg2fx_8no25": {
+          "text": {
+            "en": "Rumors clear the air by allowing bad things to surface."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zws8M21PVe1XLGHxO": true
+      },
+      "text": {
+        "en": "Rumors may often be based on misunderstandings and incorrect information. How can rumors affect the factory?"
+      },
+      "title": {
+        "en": "Rumors"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwsJQX5Su6AAx4GZX": {
+      "answers": {
+        "-M6ZwsR3oa8-OUHbXS6-": {
+          "text": {
+            "en": "Worker representatives can help avoid conflict and unrest."
+          }
+        },
+        "-M6ZwsVoRdlP2YTjLuDH": {
+          "text": {
+            "en": "Worker representatives can report on co-worker’s job performances."
+          }
+        },
+        "-M6ZwsYAualRLfkuf4Z6": {
+          "text": {
+            "en": "Worker representatives can convince co-workers to work more overtime hours during peak season."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwsR3oa8-OUHbXS6-": true
+      },
+      "text": {
+        "en": "Having worker representatives at the factory can lead to less worker migration. What is another benefit of worker representatives?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwsxMLUwey3m_zcwp": {
+      "answers": {
+        "-M6Zwt3WZNM_By5IqgGP": {
+          "text": {
+            "en": "Shop floor workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6Zwt8F3IFa7qtnEiH0": {
+          "text": {
+            "en": "Management and workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6ZwtAcVAAJ5YG8rktg": {
+          "text": {
+            "en": "The factory management chooses the nominees for the upcoming election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zwt3WZNM_By5IqgGP": true
+      },
+      "text": {
+        "en": "What happens during a worker representative election?"
+      },
+      "title": {
+        "en": "Election processes"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwtCyKeoHxbsvMqB-": {
+      "answers": {
+        "-M6ZwtK89vo31h3YKCKs": {
+          "text": {
+            "en": "To solve problems by representing co-workers to the management."
+          }
+        },
+        "-M6ZwtOqorT4nPAJosGb": {
+          "text": {
+            "en": "To arrange annual meetings."
+          }
+        },
+        "-M6ZwtRBlyxbAg5nfH8O": {
+          "text": {
+            "en": "To select the worker of the month."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwtK89vo31h3YKCKs": true
+      },
+      "text": {
+        "en": "What is the main responsibility of a worker representative?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6ZwtTXzYPsXWuuQAIj": {
+      "answers": {
+        "-M6Zwt_e0llUnPo-xrPq": {
+          "text": {
+            "en": "That workers are free to elect representatives without influence from anyone else."
+          }
+        },
+        "-M6ZwteLLcEWvxScxqdM": {
+          "text": {
+            "en": "That the management have the right to decide the nominees prior to the election."
+          }
+        },
+        "-M6Zwtggl8pP4ibOUaq3": {
+          "text": {
+            "en": "That workers considers the advice of the management before the election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zwt_e0llUnPo-xrPq": true
+      },
+      "text": {
+        "en": "What is the most important aspect when workers elect their worker representative?"
+      },
+      "title": {
+        "en": "Election processes"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx3ASC2zMAKOC4WtP": {
+      "answers": {
+        "-M6Zx3HYZXY4p9eUqgWH": {
+          "text": {
+            "en": "Non-monetary benefit"
+          }
+        },
+        "-M6Zx3MFUNfLmGEM9ec2": {
+          "text": {
+            "en": "Monetary benefit"
+          }
+        },
+        "-M6Zx3O_qSaKt0gAgBtv": {
+          "text": {
+            "en": "Social security benefit"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx3HYZXY4p9eUqgWH": true
+      },
+      "text": {
+        "en": "When April was a worker representative she shared with the factory management the workers’ suggestion to reimburse travel costs after CNY. What is the correct term for that type of benefit?"
+      },
+      "title": {
+        "en": "Benefits"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx3QvZVUaKZ0O6Vpk": {
+      "answers": {
+        "-M6Zx3Y0tCZuFHEyuxim": {
+          "text": {
+            "en": "Free canteen food and dormitory provided by the factory"
+          }
+        },
+        "-M6Zx3bgwammbEffwPTF": {
+          "text": {
+            "en": "Cheaper prices for PPE and other equipment needed at work"
+          }
+        },
+        "-M6Zx3e2AjHVzRTZ9dHU": {
+          "text": {
+            "en": "Health safety training free of charge during working hours."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx3Y0tCZuFHEyuxim": true
+      },
+      "text": {
+        "en": "Non-monetary benefits can help workers save money. Which of the following is an another example of non-monetary benefits the factory can provide?"
+      },
+      "title": {
+        "en": "Benefits"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:32.198Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx3gO7J_YsabWYxVp": {
+      "answers": {
+        "-M6Zx3nWQ4qb29R9LkTC": {
+          "text": {
+            "en": "Worker representatives should be both men and women of different ages."
+          }
+        },
+        "-M6Zx3sGVgWouM89bDdM": {
+          "text": {
+            "en": "Worker representatives should be both workers and managers of different ages."
+          }
+        },
+        "-M6Zx3vXwteENP9u0c0w": {
+          "text": {
+            "en": "Worker representatives should be both men and women from the same department."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx3nWQ4qb29R9LkTC": true
+      },
+      "text": {
+        "en": "It is important that the worker representatives can speak for all workers in the factory. What example does Lily give Lee in the film?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx4DOioTqTverH1WL": {
+      "answers": {
+        "-M6Zx4Kbl5TiI626-mfe": {
+          "text": {
+            "en": "Workers will not raise their concerns and therefore problems may not be surfaced nor solved."
+          }
+        },
+        "-M6Zx4PPz5UOCeW2Sj5q": {
+          "text": {
+            "en": "The factory will increase their production output as there will be less reported grievances and problems."
+          }
+        },
+        "-M6Zx4RkSzr66HiIUxQ3": {
+          "text": {
+            "en": "The management should take the role as worker representatives as trust is crucial."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx4Kbl5TiI626-mfe": true
+      },
+      "text": {
+        "en": "Lily mentioned the importance of trust between workers and worker representatives. What can happen if there is no trust?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx4aDWUE55UXZdefC": {
+      "answers": {
+        "-M6Zx4hIBKynFU4BLLNN": {
+          "text": {
+            "en": "Shop floor workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6Zx4lyREE5mcNWWKCx": {
+          "text": {
+            "en": "Management and workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6Zx4oLSu6BwL_9Ch9Z": {
+          "text": {
+            "en": "The factory management chooses the nominees for the upcoming election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx4hIBKynFU4BLLNN": true
+      },
+      "text": {
+        "en": "What happens during a worker representative election?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:58.816Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx4qiBRaiuv234gwH": {
+      "answers": {
+        "-M6Zx4xothYOTZzs8Le8": {
+          "text": {
+            "en": "That workers are free to elect representatives without influence from anyone else."
+          }
+        },
+        "-M6Zx51atiG86jcB5Apy": {
+          "text": {
+            "en": "That the management have the right to decide the nominees prior to the election."
+          }
+        },
+        "-M6Zx53yMqC_HaZUEE4Z": {
+          "text": {
+            "en": "That workers considers the advice of the management before the election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx4xothYOTZzs8Le8": true
+      },
+      "text": {
+        "en": "What is the most important aspect when workers elect their worker representative?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:09.238Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx56KMIZuHQRldbUc": {
+      "answers": {
+        "-M6Zx5DQZlP5JA-IbEdT": {
+          "text": {
+            "en": "The box must be sealed so no one can see or tamper with your vote."
+          }
+        },
+        "-M6Zx5I5v0tLOkR8oVna": {
+          "text": {
+            "en": "The box must be open so everyone can see the number of total votes."
+          }
+        },
+        "-M6Zx5KXHrxmP7JIvcw4": {
+          "text": {
+            "en": "A manager must check who you voted for prior placing your vote in the box."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx5DQZlP5JA-IbEdT": true
+      },
+      "text": {
+        "en": "Your vote should be placed in a ballot box. Which of the following statements is true in regards to the ballot box?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx5MsuX9ndAc5WFg0": {
+      "answers": {
+        "-M6Zx5U-lSJDDQ_ekb9G": {
+          "text": {
+            "en": " So you can vote for whoever you want without anyone knowing your choice."
+          }
+        },
+        "-M6Zx5YhDP4oM1ZaI8cQ": {
+          "text": {
+            "en": "So you can vote for several people without anyone knowing your choice."
+          }
+        },
+        "-M6Zx5a2C0v7pwWdhTQ1": {
+          "text": {
+            "en": "So managers can vote in the election without anyone knowing their choice."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx5U-lSJDDQ_ekb9G": true
+      },
+      "text": {
+        "en": "It is recommended that workers vote behind a screen. Why?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx5cOwjHFIovD72IQ": {
+      "answers": {
+        "-M6Zx5jVdX5Ym-XGVaO_": {
+          "text": {
+            "en": "A good worker representative can help solve problems and improve conditions for people at the workplace."
+          }
+        },
+        "-M6Zx5oF5Vj8CXc3VM-_": {
+          "text": {
+            "en": "A good worker representative can make sure that you receive a promotion and a higher wage."
+          }
+        },
+        "-M6Zx5qbtPdrT8nyQCIx": {
+          "text": {
+            "en": "A good worker representative can make sure that the cost for social benefits is not deducted from your wage."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx5jVdX5Ym-XGVaO_": true
+      },
+      "text": {
+        "en": "How can electing a responsible worker representative make a difference for you?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:35.584Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx68agOGEg6L_F-yu": {
+      "answers": {
+        "-M6Zx6FglEyZcB-s3EM_": {
+          "text": {
+            "en": "The trade union is the only organization legally authorized to represent the right of workers, whereas the elected workers’ committee help settle day-to-day issues with management."
+          }
+        },
+        "-M6Zx6KMXxyDIZsd8qtk": {
+          "text": {
+            "en": "The trade union is only there to help with worker welfare and does not discuss wages and conditions of work; the worker’s committee can do these things."
+          }
+        },
+        "-M6Zx6MgiU-JK5oo-Sam": {
+          "text": {
+            "en": "The trade union is responsible for maintaining order in the factory, whereas the workers’ committee is responsible for workers’ welfare matters."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx6FglEyZcB-s3EM_": true
+      },
+      "text": {
+        "en": "What is the difference between a trade union and a worker committee?"
+      },
+      "title": {
+        "en": "Roles and responsibilities"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx6P2RUOWlqIHEs_k": {
+      "answers": {
+        "-M6Zx6WH9923u_7cRsr7": {
+          "text": {
+            "en": "Regularly held elections allow worker representative to be changed by the workers they represent if necessary to ensure that they continue to reflect the views of the workers who elect them."
+          }
+        },
+        "-M6Zx6a2B3VB40bJnHVR": {
+          "text": {
+            "en": "Regularly held elections allow management to replace worker representatives."
+          }
+        },
+        "-M6Zx6cRkpXGEISGthxd": {
+          "text": {
+            "en": "Regularly held elections are mandatory according to labor law."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx6WH9923u_7cRsr7": true
+      },
+      "text": {
+        "en": "It is recommended that worker representative elections are held regularly, for example every second year. Why?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx6jYn8PdYX-kSqAG": {
+      "answers": {
+        "-M6Zx6qgGC-qGY_Jy5P_": {
+          "text": {
+            "en": "A meeting between the elected worker representatives and management representatives to discuss and solve issues together."
+          }
+        },
+        "-M6Zx6vX31A4Z_-2I53I": {
+          "text": {
+            "en": "Worker representatives discussing issues among themselves."
+          }
+        },
+        "-M6Zx6xt5pYLaiK4upDV": {
+          "text": {
+            "en": "Training worker representatives to speak with workers and management."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx6qgGC-qGY_Jy5P_": true
+      },
+      "text": {
+        "en": "What is a dialogue meeting?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx7-G2zN1D0l6JdOE": {
+      "answers": {
+        "-M6Zx76Nxjl1I5LQtd5U": {
+          "text": {
+            "en": "Topics based on input from workers and managers."
+          }
+        },
+        "-M6Zx7B6zfLj814_igrw": {
+          "text": {
+            "en": "Topics based in input from the management only."
+          }
+        },
+        "-M6Zx7DVeu_jcvFpCQrB": {
+          "text": {
+            "en": "Topics based on input from worker representatives only."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx76Nxjl1I5LQtd5U": true
+      },
+      "text": {
+        "en": "What should be discussed during a dialogue meeting?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx7FssQyjlTNcTn0Y": {
+      "answers": {
+        "-M6Zx7N2KyEEvphRxdsf": {
+          "text": {
+            "en": "A list of topics discussed during the meeting."
+          }
+        },
+        "-M6Zx7RmX5cNQ-DjtcCD": {
+          "text": {
+            "en": "A list of the meeting participants."
+          }
+        },
+        "-M6Zx7U72Q1q0QHqJ0hE": {
+          "text": {
+            "en": "A list with the names of all workers that recently filed grievances."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7N2KyEEvphRxdsf": true
+      },
+      "text": {
+        "en": "There should always be a set agenda during dialogue meetings. What is an agenda?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx7WT4WUMRLknJEq-": {
+      "answers": {
+        "-M6Zx7cdfEUouTQj-1K7": {
+          "text": {
+            "en": "To keep a written record in order to share what was discussed and decided with all factory members."
+          }
+        },
+        "-M6Zx7hMXIFFPk7Wk-fC": {
+          "text": {
+            "en": "To register how many minutes the meeting took."
+          }
+        },
+        "-M6Zx7jkfzD6-rPYxkaG": {
+          "text": {
+            "en": "To keep a written record to share with the communities outside the factory."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7cdfEUouTQj-1K7": true
+      },
+      "text": {
+        "en": "What is the purpose of the meeting minutes?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx7m7c_4_eVNBFhT6": {
+      "answers": {
+        "-M6Zx7tMRs3_v5FTiWyL": {
+          "text": {
+            "en": "Everyone at the factory."
+          }
+        },
+        "-M6Zx86k-kRdKlaQYuKz": {
+          "text": {
+            "en": "Everyone present during the committee meeting."
+          }
+        },
+        "-M6Zx897NVzN8VGtqUkv": {
+          "text": {
+            "en": "Only the elected worker representative."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7tMRs3_v5FTiWyL": true
+      },
+      "text": {
+        "en": "Who has access to the meeting minutes?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx8BUoBbTUVQKLGqI": {
+      "answers": {
+        "-M6Zx8IiL_NgWxLJ8A0P": {
+          "text": {
+            "en": "By reading the meeting minutes posted on the factory notice boards or information channels such as WeChat."
+          }
+        },
+        "-M6Zx8NSFk0feiIkXxXb": {
+          "text": {
+            "en": "By reading the factory policy on the factory’s notice boards."
+          }
+        },
+        "-M6Zx8Pozi3PGVrBP1ZW": {
+          "text": {
+            "en": "By asking the members of the canteen committee."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx8IiL_NgWxLJ8A0P": true
+      },
+      "text": {
+        "en": "You can ask worker representatives about what was decided during the dialogue meeting. How else can you find information about the meeting?"
+      },
+      "title": {
+        "en": "Information sharing"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx8SALx_nj0JDyPpW": {
+      "answers": {
+        "-M6Zx8ZGAaAhu3EMQKsA": {
+          "text": {
+            "en": "A plan that sets out what steps must be taken and by whom and in which order to solve a specific problem."
+          }
+        },
+        "-M6Zx8czz6AnlCnimfmb": {
+          "text": {
+            "en": "The production targets for the upcoming year."
+          }
+        },
+        "-M6Zx8fLCV-w5x4bXmh7": {
+          "text": {
+            "en": "A schedule that lists individual promotions."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx8ZGAaAhu3EMQKsA": true
+      },
+      "text": {
+        "en": "What is an action plan?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx8yLxsmj5hQekH3E": {
+      "answers": {
+        "-M6Zx94X9Y8ceN4kdewz": {
+          "text": {
+            "en": "The committee should have at least as many workers as managers."
+          }
+        },
+        "-M6Zx99FPgcwWE0qRr8i": {
+          "text": {
+            "en": "The committee should have twice as many managers as workers."
+          }
+        },
+        "-M6Zx9BbXSnqpDbYeBOS": {
+          "text": {
+            "en": "The committee should have only workers."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx94X9Y8ceN4kdewz": true
+      },
+      "text": {
+        "en": "The committee should conduct meetings on a regular basis. How should a dialogue committee be formed?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-M6Zx9ak_WrEP4sd_1YD": {
+      "answers": {
+        "-M6Zx9huYwhGH7_sBY-J": {
+          "text": {
+            "en": " Because he understands that voicing concerns is better than complaining."
+          }
+        },
+        "-M6Zx9mtKujbTha7Wyy3": {
+          "text": {
+            "en": "Because he was promoted and is now her manager."
+          }
+        },
+        "-M6Zx9pJS1NmBgjyKVqg": {
+          "text": {
+            "en": "Because he took her role as a worker representative."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx9huYwhGH7_sBY-J": true
+      },
+      "text": {
+        "en": "Why is Lee apologizing to April?"
+      },
+      "title": {
+        "en": "Respect"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-MrOFMhxcgAXOr-jXxTb": {
+      "answers": {
+        "-MrOFMnvitAf63ImOtvy": {
+          "text": {
+            "en": "A good worker representative can help in solving problems and improving conditions for people at work."
+          }
+        },
+        "-MrOFMrpg5_lPEYQm3hr": {
+          "text": {
+            "en": "A good worker representative can make sure that you can receive a pay raise."
+          }
+        },
+        "-MrOFMtme-UGC28l6ZuQ": {
+          "text": {
+            "en": "A good worker representative can make sure that you can get a better job."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFMnvitAf63ImOtvy": true
+      },
+      "text": {
+        "en": "How can electing a responsible worker representative make a difference for you? "
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "-MrOFR54UO4ZzCf93KR7": {
+      "answers": {
+        "-MrOFRAyxnJ5BpqzHpR5": {
+          "text": {
+            "en": "To solve problems by representing her co-workers to the management."
+          }
+        },
+        "-MrOFREsHwXQmrCQJCU0": {
+          "text": {
+            "en": "To arrange the annual picnic for the management."
+          }
+        },
+        "-MrOFRGr2Tiu2cDpvTGU": {
+          "text": {
+            "en": "To select the worker of the month together with the management."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFRAyxnJ5BpqzHpR5": true
+      },
+      "text": {
+        "en": "Esha is the newly elected worker representative. What is her main responsibility? "
+      },
+      "title": {
+        "en": "Responsibilities"
+      },
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    },
+    "i_learned_something_new": {
+      "answers": {
+        "-MdKa9ogmWOXyeHFzKgn": {
+          "text": {
+            "en": ":yes:"
+          }
+        },
+        "-MdKaA1Ziu8VnrVplnPT": {
+          "text": {
+            "en": ":no:"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MdKa9ogmWOXyeHFzKgn": true
+      },
+      "text": {
+        "en": "I learned something new from this Quizrr module."
+      },
+      "title": {
+        "en": "Post-Training Feedback"
+      },
+      "multiChoice": false,
+      "maxChoices": 1,
+      "createdAt": "2023-12-06T13:33:53.056Z",
+      "updatedAt": "2024-02-21T08:09:10.538Z"
+    }
+  },
+  "movies": {
+    "-M0ON1H-S9RYsnRsnMj1": {
+      "file_name": "Scene_2.2",
+      "scene_name": "Scene 2.2"
+    },
+    "-M6ZwqWNFgGIahLv1Zc-": {
+      "file_name": "Executive_Summary-Scene_3",
+      "scene_name": "Scene_3"
+    },
+    "-M6ZwsqCbcmh6_tn7pgd": {
+      "file_name": "Executive_Summary-Scene_6A",
+      "scene_name": "Scene_6A"
+    },
+    "-M6ZwumPFbsQQguQiz8Q": {
+      "file_name": "Executive_Summary-Scene_10A",
+      "scene_name": "Scene_10A"
+    },
+    "-M6Zx9Uc6TSNXhwmKZIg": {
+      "file_name": "Roles_Responsibilities-Scene_8",
+      "scene_name": "Scene_8"
+    },
+    "-MrOFUbl3-x6kQxyb79d": {
+      "file_name": "The_Management_Meeting",
+      "scene_name": "The Management Meeting"
+    }
+  }
+}

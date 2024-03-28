@@ -1,0 +1,1280 @@
+{
+  "id": "sioux_automation_test",
+  "market": "bangladesh",
+  "app": {
+    "learning_modules": [
+      "639150a0a9cf2a4a88f29b04",
+      "639150a0a9cf2a4a88f29b18"
+    ],
+    "locales": ["en"],
+    "name": {
+      "en": "Automation Testing: lots of learning questions"
+    },
+    "version": "v1"
+  },
+  "learning_modules": {
+    "639150a0a9cf2a4a88f29b04": {
+      "id": "roles_responsibilities",
+      "name": {
+        "en": "Roles & Responsibilities"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "-M6Zx8hiQPnx8jefzxH3",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9E0Tn0lm7SrNWHz",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZxAO4B1NHddiezQTz",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7FssQyjlTNcTn0Y",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8BUoBbTUVQKLGqI",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8yLxsmj5hQekH3E",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9rh40fldfXguqWo",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7-G2zN1D0l6JdOE",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7WT4WUMRLknJEq-",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9ak_WrEP4sd_1YD",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZxAdmVMQjVMVbALei",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx6jYn8PdYX-kSqAG",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZxA7OnLm4m2uAtHPK",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8SALx_nj0JDyPpW",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx7m7c_4_eVNBFhT6",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-MrOFUP10_belhf6BqfD",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFTJlEthcn12GQ4HM",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFR54UO4ZzCf93KR7",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFUBFQIupQNG2wFd0",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFTyVlx-9fmD16Q0P",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFTkiCZV72RKWV3lr",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFS9_2n7NhqWyhl9m",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFRIpkQOY84fd_ZVh",
+          "type": "question"
+        },
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFVmcfL5boJrLnZAA",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFVZqhj2WTq9fu0nA",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFVM3s_A3I745rrNL",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFUvUrb-HR8NUVf9p",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFT674chBHoM0uETy",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFStNXtMWEZ6BcS6h",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFS_oO9BzNImEVXRD",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-M6Zx8hiQPnx8jefzxH3",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZxAO4B1NHddiezQTz",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx9E0Tn0lm7SrNWHz",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "-M6Zx8hiQPnx8jefzxH3",
+          "type": "question"
+        },
+        {
+          "key": "-M6ZxAO4B1NHddiezQTz",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx8BUoBbTUVQKLGqI",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    },
+    "639150a0a9cf2a4a88f29b18": {
+      "id": "seeking_help",
+      "name": {
+        "en": "Seeking Help"
+      },
+      "locales": ["en"],
+      "locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmjtBaRh09WLXOM5",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmyaqujQrC0nVK2x",
+          "type": "question"
+        },
+        {
+          "key": "-McoMnCD0WcPBhU64Szn",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmjtBaRh09WLXOM5",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmyaqujQrC0nVK2x",
+          "type": "question"
+        },
+        {
+          "key": "-McoMnCD0WcPBhU64Szn",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    }
+  },
+  "questions": {
+    "-M6Zx6jYn8PdYX-kSqAG": {
+      "answers": {
+        "-M6Zx6qgGC-qGY_Jy5P_": {
+          "text": {
+            "en": "A meeting between the elected worker representatives and management representatives to discuss and solve issues together."
+          }
+        },
+        "-M6Zx6vX31A4Z_-2I53I": {
+          "text": {
+            "en": "Worker representatives discussing issues among themselves."
+          }
+        },
+        "-M6Zx6xt5pYLaiK4upDV": {
+          "text": {
+            "en": "Training worker representatives to speak with workers and management."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx6qgGC-qGY_Jy5P_": true
+      },
+      "text": {
+        "en": "What is a dialogue meeting?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx7-G2zN1D0l6JdOE": {
+      "answers": {
+        "-M6Zx76Nxjl1I5LQtd5U": {
+          "text": {
+            "en": "Topics based on input from workers and managers."
+          }
+        },
+        "-M6Zx7B6zfLj814_igrw": {
+          "text": {
+            "en": "Topics based in input from the management only."
+          }
+        },
+        "-M6Zx7DVeu_jcvFpCQrB": {
+          "text": {
+            "en": "Topics based on input from worker representatives only."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx76Nxjl1I5LQtd5U": true
+      },
+      "text": {
+        "en": "What should be discussed during a dialogue meeting?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx7FssQyjlTNcTn0Y": {
+      "answers": {
+        "-M6Zx7N2KyEEvphRxdsf": {
+          "text": {
+            "en": "A list of topics discussed during the meeting."
+          }
+        },
+        "-M6Zx7RmX5cNQ-DjtcCD": {
+          "text": {
+            "en": "A list of the meeting participants."
+          }
+        },
+        "-M6Zx7U72Q1q0QHqJ0hE": {
+          "text": {
+            "en": "A list with the names of all workers that recently filed grievances."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7N2KyEEvphRxdsf": true
+      },
+      "text": {
+        "en": "There should always be a set agenda during dialogue meetings. What is an agenda?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx7WT4WUMRLknJEq-": {
+      "answers": {
+        "-M6Zx7cdfEUouTQj-1K7": {
+          "text": {
+            "en": "To keep a written record in order to share what was discussed and decided with all factory members."
+          }
+        },
+        "-M6Zx7hMXIFFPk7Wk-fC": {
+          "text": {
+            "en": "To register how many minutes the meeting took."
+          }
+        },
+        "-M6Zx7jkfzD6-rPYxkaG": {
+          "text": {
+            "en": "To keep a written record to share with the communities outside the factory."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7cdfEUouTQj-1K7": true
+      },
+      "text": {
+        "en": "What is the purpose of the meeting minutes?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx7m7c_4_eVNBFhT6": {
+      "answers": {
+        "-M6Zx7tMRs3_v5FTiWyL": {
+          "text": {
+            "en": "Everyone at the factory."
+          }
+        },
+        "-M6Zx86k-kRdKlaQYuKz": {
+          "text": {
+            "en": "Everyone present during the committee meeting."
+          }
+        },
+        "-M6Zx897NVzN8VGtqUkv": {
+          "text": {
+            "en": "Only the elected worker representative."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx7tMRs3_v5FTiWyL": true
+      },
+      "text": {
+        "en": "Who has access to the meeting minutes?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx8BUoBbTUVQKLGqI": {
+      "answers": {
+        "-M6Zx8IiL_NgWxLJ8A0P": {
+          "text": {
+            "en": "By reading the meeting minutes posted on the factory notice boards or information channels such as WeChat."
+          }
+        },
+        "-M6Zx8NSFk0feiIkXxXb": {
+          "text": {
+            "en": "By reading the factory policy on the factory’s notice boards."
+          }
+        },
+        "-M6Zx8Pozi3PGVrBP1ZW": {
+          "text": {
+            "en": "By asking the members of the canteen committee."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx8IiL_NgWxLJ8A0P": true
+      },
+      "text": {
+        "en": "You can ask worker representatives about what was decided during the dialogue meeting. How else can you find information about the meeting?"
+      },
+      "title": {
+        "en": "Information sharing"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx8SALx_nj0JDyPpW": {
+      "answers": {
+        "-M6Zx8ZGAaAhu3EMQKsA": {
+          "text": {
+            "en": "A plan that sets out what steps must be taken and by whom and in which order to solve a specific problem."
+          }
+        },
+        "-M6Zx8czz6AnlCnimfmb": {
+          "text": {
+            "en": "The production targets for the upcoming year."
+          }
+        },
+        "-M6Zx8fLCV-w5x4bXmh7": {
+          "text": {
+            "en": "A schedule that lists individual promotions."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx8ZGAaAhu3EMQKsA": true
+      },
+      "text": {
+        "en": "What is an action plan?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx8hiQPnx8jefzxH3": {
+      "answers": {
+        "-M6Zx8ospVdkqL5tmf6X": {
+          "text": {
+            "en": "If workers feel safe and like their working environment they are more likely to stay at the workplace and perform better."
+          }
+        },
+        "-M6Zx8tblQz_9BJrz8TB": {
+          "text": {
+            "en": "They all agree that committee meetings are a waste of time and should be cancelled."
+          }
+        },
+        "-M6Zx8vzNZOXnU_fDbke": {
+          "text": {
+            "en": "Mr. Yu’s only concern is to improve the working environment. He is not bothered about production."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx8ospVdkqL5tmf6X": true
+      },
+      "text": {
+        "en": "GM Xing is worried that production will go down due to committee meetings and worker representation. How do Mr. Yu and Mrs. Ying respond to her?"
+      },
+      "title": {
+        "en": "Worker representation"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx8yLxsmj5hQekH3E": {
+      "answers": {
+        "-M6Zx94X9Y8ceN4kdewz": {
+          "text": {
+            "en": "The committee should have at least as many workers as managers."
+          }
+        },
+        "-M6Zx99FPgcwWE0qRr8i": {
+          "text": {
+            "en": "The committee should have twice as many managers as workers."
+          }
+        },
+        "-M6Zx9BbXSnqpDbYeBOS": {
+          "text": {
+            "en": "The committee should have only workers."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx94X9Y8ceN4kdewz": true
+      },
+      "text": {
+        "en": "The committee should conduct meetings on a regular basis. How should a dialogue committee be formed?"
+      },
+      "title": {
+        "en": "Meeting practices"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx9E0Tn0lm7SrNWHz": {
+      "answers": {
+        "-M6Zx9LBPlggQqhCHuXx": {
+          "text": {
+            "en": "A worker should receive remuneration at her average earnings rate for the time spent on official duties."
+          }
+        },
+        "-M6Zx9PtVVpnFfgCq8c2": {
+          "text": {
+            "en": "A worker should receive extra salary when solving issues in the factory."
+          }
+        },
+        "-M6Zx9SF4OFkBKRPwMGx": {
+          "text": {
+            "en": "A worker representative will receive a yearly bonus."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx9LBPlggQqhCHuXx": true
+      },
+      "text": {
+        "en": "How should worker representatives be compensated if their pay is impacted by their tasks?"
+      },
+      "title": {
+        "en": "Worker representation"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx9ak_WrEP4sd_1YD": {
+      "answers": {
+        "-M6Zx9huYwhGH7_sBY-J": {
+          "text": {
+            "en": " Because he understands that voicing concerns is better than complaining."
+          }
+        },
+        "-M6Zx9mtKujbTha7Wyy3": {
+          "text": {
+            "en": "Because he was promoted and is now her manager."
+          }
+        },
+        "-M6Zx9pJS1NmBgjyKVqg": {
+          "text": {
+            "en": "Because he took her role as a worker representative."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx9huYwhGH7_sBY-J": true
+      },
+      "text": {
+        "en": "Why is Lee apologizing to April?"
+      },
+      "title": {
+        "en": "Respect"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6Zx9rh40fldfXguqWo": {
+      "answers": {
+        "-M6Zx9yt2VusIkXoVzPF": {
+          "text": {
+            "en": "Respect is to act in a positive way and to treat people the way you’d like to be treated."
+          }
+        },
+        "-M6ZxA2f8Zg9xZnhQo9K": {
+          "text": {
+            "en": "Respect is to avoid eye contact and not initiate dialogue with superiors."
+          }
+        },
+        "-M6ZxA50WZZYzSCMG7qf": {
+          "text": {
+            "en": "Respect is to offer gifts and special benefits to superiors and peers."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx9yt2VusIkXoVzPF": true
+      },
+      "text": {
+        "en": "What does respect at the workplace mean?"
+      },
+      "title": {
+        "en": "Respect"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6ZxA7OnLm4m2uAtHPK": {
+      "answers": {
+        "-M6ZxAEbqRKvwR2-4_qh": {
+          "text": {
+            "en": "A worker representative must bring up questions and problems raised by their co-workers at the dialogue meeting."
+          }
+        },
+        "-M6ZxAJLo6cqVE9Om_SM": {
+          "text": {
+            "en": "A worker representative must negotiate co-worker’s individual salaries."
+          }
+        },
+        "-M6ZxALhd7rjTux7jv08": {
+          "text": {
+            "en": "A worker representative must participate in decisions about promotions."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZxAEbqRKvwR2-4_qh": true
+      },
+      "text": {
+        "en": "Which of the following tasks is the responsibility of a worker representative?"
+      },
+      "title": {
+        "en": "Responsibilities"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6ZxAO4B1NHddiezQTz": {
+      "answers": {
+        "-M6ZxAVGwAwI9nkpzTsS": {
+          "text": {
+            "en": "By providing a safe way for workers to raise problems, so that issues can be solved more rapidly and more easily."
+          }
+        },
+        "-M6ZxA_-VWYQdCMYktqi": {
+          "text": {
+            "en": "Worker representatives can assign workers to unwillingly work overtime."
+          }
+        },
+        "-M6ZxAbR15q0_tqO8WOu": {
+          "text": {
+            "en": "Worker representatives can help the management monitor co-worker’s performances."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZxAVGwAwI9nkpzTsS": true
+      },
+      "text": {
+        "en": "Efficient worker representation and dialogue at the workplace benefits the factory in many ways. How can worker representatives benefit the whole factory?"
+      },
+      "title": {
+        "en": "Engagement"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-M6ZxAdmVMQjVMVbALei": {
+      "answers": {
+        "-M6ZxAl-lDf_79iwyi5d": {
+          "text": {
+            "en": "A person who focuses on the potential solution rather than the problem."
+          }
+        },
+        "-M6ZxApggyEovOFHFaqs": {
+          "text": {
+            "en": "A person who focuses on the problem rather than the solution."
+          }
+        },
+        "-M6ZxAsBnilz9HIkxQ5T": {
+          "text": {
+            "en": "A person who wants to solve problems individually."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZxAl-lDf_79iwyi5d": true
+      },
+      "text": {
+        "en": "What is a solution seeker?"
+      },
+      "title": {
+        "en": "Solutions"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-McoMmjtBaRh09WLXOM5": {
+      "answers": {
+        "-McoMmqCuZHh_1m4X_Jj": {
+          "text": {
+            "en": "An emergency contact like a friend or family member, your recruitment agency, NGOs, or a local government representative."
+          }
+        },
+        "-McoMmuRX3_qN_Q1jRDg": {
+          "text": {
+            "en": "A work contact like the factory hotline or your soon-to-be supervisor."
+          }
+        },
+        "-McoMmwW7KUkAG4y6Vev": {
+          "text": {
+            "en": "No contacts are needed until you arrive in the destination country."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-McoMmqCuZHh_1m4X_Jj": true
+      },
+      "text": {
+        "en": "Before you start your migration journey, what contact information should you keep with you?"
+      },
+      "title": {
+        "en": "Emergency contacts"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:29:50.444Z",
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-McoMmyaqujQrC0nVK2x": {
+      "answers": {
+        "-McoMn3ugxTP0AiN4oz-": {
+          "text": {
+            "en": "Relevant government agencies, your embassy, or NGOs with staff that speak your language."
+          }
+        },
+        "-McoMn82GKJ88AzFCGVA": {
+          "text": {
+            "en": "Your friends and co-workers so long as they are the same nationality."
+          }
+        },
+        "-McoMnA7DzcXkPVofPMZ": {
+          "text": {
+            "en": "You should keep those concerns to yourself until your contract is complete."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-McoMn3ugxTP0AiN4oz-": true
+      },
+      "text": {
+        "en": "If you or someone you know are a victim of trafficking, forced labor, or other employment-related issues, where can you turn to seek help?"
+      },
+      "title": {
+        "en": "Seeking help"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:29:53.563Z",
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-McoMnCD0WcPBhU64Szn": {
+      "answers": {
+        "-McoMnIYSelffVinpwAc": {
+          "text": {
+            "en": "The HR department, worker representatives, and anonymous grievance boxes."
+          }
+        },
+        "-McoMnMi7vdP52ZBivj1": {
+          "text": {
+            "en": "Your immediate supervisor only."
+          }
+        },
+        "-McoMnOscMnv2gMQ95Ek": {
+          "text": {
+            "en": "Your co-workers, friends, and family."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-McoMnIYSelffVinpwAc": true
+      },
+      "text": {
+        "en": "At the workplace, where can workers turn to report issues, raise complaints and grievances, and offer suggestions?"
+      },
+      "title": {
+        "en": "Grievance channels"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFR54UO4ZzCf93KR7": {
+      "answers": {
+        "-MrOFRAyxnJ5BpqzHpR5": {
+          "text": {
+            "en": "To solve problems by representing her co-workers to the management."
+          }
+        },
+        "-MrOFREsHwXQmrCQJCU0": {
+          "text": {
+            "en": "To arrange the annual picnic for the management."
+          }
+        },
+        "-MrOFRGr2Tiu2cDpvTGU": {
+          "text": {
+            "en": "To select the worker of the month together with the management."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFRAyxnJ5BpqzHpR5": true
+      },
+      "text": {
+        "en": "Esha is the newly elected worker representative. What is her main responsibility? "
+      },
+      "title": {
+        "en": "Responsibilities"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFRIpkQOY84fd_ZVh": {
+      "answers": {
+        "-MrOFROnU2r3-FxV3a6R": {
+          "text": {
+            "en": "Help solve problems of co-workers on a daily basis - before the problems grow big."
+          }
+        },
+        "-MrOFRSg_TPBkreBQU9h": {
+          "text": {
+            "en": "Keep track of the working hours of co-workers."
+          }
+        },
+        "-MrOFRUdDX5zE-a51VQ2": {
+          "text": {
+            "en": "Always work overtime when asked by supervisors."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFROnU2r3-FxV3a6R": true
+      },
+      "text": {
+        "en": "Worker representatives have many responsibilities. Which of the following is the most important task for an elected worker representative?"
+      },
+      "title": {
+        "en": "Responsibilities"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFS9_2n7NhqWyhl9m": {
+      "answers": {
+        "-MrOFSFSKtdNZzUZ7T6b": {
+          "text": {
+            "en": "That workers are free to elect representatives without influence from anyone else."
+          }
+        },
+        "-MrOFSJJXZO6n8w2GLh1": {
+          "text": {
+            "en": "That management should select worker representatives."
+          }
+        },
+        "-MrOFSLFPcAFMfRChxha": {
+          "text": {
+            "en": "That supervisors advise workers whom to vote for."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFSFSKtdNZzUZ7T6b": true
+      },
+      "text": {
+        "en": "What is the most important when workers elect their worker representatives?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFS_oO9BzNImEVXRD": {
+      "answers": {
+        "-MrOFSfgB7Lhp2JASuB7": {
+          "text": {
+            "en": "The factory trade union."
+          }
+        },
+        "-MrOFSjYI9goA6MS3rGj": {
+          "text": {
+            "en": "The local police."
+          }
+        },
+        "-MrOFSlUqjc7o21SpXsf": {
+          "text": {
+            "en": "A line chief."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFSfgB7Lhp2JASuB7": true
+      },
+      "text": {
+        "en": "There are issues that worker representatives are not responsible for, such as negotiating wages. Who can help workers to negotiate wage? "
+      },
+      "title": {
+        "en": "Collective bargaining"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFStNXtMWEZ6BcS6h": {
+      "answers": {
+        "-MrOFSzKryXvJOgAzThy": {
+          "text": {
+            "en": "A worker has worked 3 hours overtime but has only been paid for 1 hour."
+          }
+        },
+        "-MrOFT2DY6v3l72eSD_I": {
+          "text": {
+            "en": "A worker wants to negotiate pay raise."
+          }
+        },
+        "-MrOFT4AbZV6Jf20BF_f": {
+          "text": {
+            "en": "A worker is angry with his child."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFSzKryXvJOgAzThy": true
+      },
+      "text": {
+        "en": "As a worker representative, it is important to know what a grievance is. Which of the following is a grievance?"
+      },
+      "title": {
+        "en": "Grievances"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFT674chBHoM0uETy": {
+      "answers": {
+        "-MrOFTBzfN7_gO44xtbB": {
+          "text": {
+            "en": "Punishment of workers who don't fulfil daily production quotas."
+          }
+        },
+        "-MrOFTFs3u3_Ab6XCggw": {
+          "text": {
+            "en": "Legal punishment for theft."
+          }
+        },
+        "-MrOFTHo00r4SS6-TYTo": {
+          "text": {
+            "en": "Instructions of when and how to use safety equipment."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFTBzfN7_gO44xtbB": true
+      },
+      "text": {
+        "en": "All forms of abuse, physical or verbal, are against the law. Which of the following is considered abuse?"
+      },
+      "title": {
+        "en": "Abuse"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFTJlEthcn12GQ4HM": {
+      "answers": {
+        "-MrOFTPeiCXWVcHfkHTU": {
+          "text": {
+            "en": "Managers or co-workers behaving in a threatening way."
+          }
+        },
+        "-MrOFTU-mChO--fQsCvj": {
+          "text": {
+            "en": "Instructions on how to conduct a work task."
+          }
+        },
+        "-MrOFTVyoXrAo5lQ2Jxb": {
+          "text": {
+            "en": "Corrective comments by supervisors when one makes a mistake."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFTPeiCXWVcHfkHTU": true
+      },
+      "text": {
+        "en": "All forms of abuse should be reported to the management. What is one type of abuse?"
+      },
+      "title": {
+        "en": "Abuse"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFTkiCZV72RKWV3lr": {
+      "answers": {
+        "-MrOFTqh2hToALXOw5nb": {
+          "text": {
+            "en": "The committee should have at least as many workers as managers."
+          }
+        },
+        "-MrOFTuaIciHLJ8te9uB": {
+          "text": {
+            "en": "The committee should have twice as many managers as workers."
+          }
+        },
+        "-MrOFTwYcstsE5USQ68p": {
+          "text": {
+            "en": "The committee should have only workers."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFTqh2hToALXOw5nb": true
+      },
+      "text": {
+        "en": "The participation committee should conduct meetings on a regular basis. How should a participation committee be formed?"
+      },
+      "title": {
+        "en": "Participation committees"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFTyVlx-9fmD16Q0P": {
+      "answers": {
+        "-MrOFU3QimJvsFpWJ8EQ": {
+          "text": {
+            "en": "If there are more women than men, there will be more female worker representatives than male."
+          }
+        },
+        "-MrOFU7KMXqKwkEt2NL9": {
+          "text": {
+            "en": "Women are not allowed to be worker representatives if there are men in the factory."
+          }
+        },
+        "-MrOFU9ILyupnxn0ZndD": {
+          "text": {
+            "en": "Men are not allowed to be worker representatives if there are women in the factory."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFU3QimJvsFpWJ8EQ": true
+      },
+      "text": {
+        "en": "According to the labor law, the number of female worker representatives should be proportional to the number of women in the factory. What does this mean?"
+      },
+      "title": {
+        "en": "Gender"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFUBFQIupQNG2wFd0": {
+      "answers": {
+        "-MrOFUHCoWfbuRwgcC7I": {
+          "text": {
+            "en": "They can discuss if the problems should be brought up at the meeting or solved directly on the work floor."
+          }
+        },
+        "-MrOFUL45ieqwIguWFoi": {
+          "text": {
+            "en": "They can discuss the problems before, so they never have to bring them up at the meeting."
+          }
+        },
+        "-MrOFUN2EVsdJ6MVIIX6": {
+          "text": {
+            "en": "If they discuss the problems before, they have completed their task as a worker representative."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFUHCoWfbuRwgcC7I": true
+      },
+      "text": {
+        "en": "Esha and Wahid are comparing notes before the participation committee meeting. Why is this helpful?"
+      },
+      "title": {
+        "en": "Responsibilities"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFUP10_belhf6BqfD": {
+      "answers": {
+        "-MrOFUUyNLnhjPrdI8iD": {
+          "text": {
+            "en": "All decisions should be thoroughly discussed, for example by voting"
+          }
+        },
+        "-MrOFUYr6cB0wpVs5f2M": {
+          "text": {
+            "en": "All decisions should be made by the GM of the factory."
+          }
+        },
+        "-MrOFU_oEVCPRjQHCdv2": {
+          "text": {
+            "en": "All decisions should be made by the chair and vice chair only."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFUUyNLnhjPrdI8iD": true
+      },
+      "text": {
+        "en": "How are decisions made during a participation committee meeting?"
+      },
+      "title": {
+        "en": "PC meeting"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFUvUrb-HR8NUVf9p": {
+      "answers": {
+        "-MrOFV0Unf7W9f9zz92e": {
+          "text": {
+            "en": "A list of topics to be discussed during the meeting."
+          }
+        },
+        "-MrOFV4MpY8R1VHyfmpe": {
+          "text": {
+            "en": "A list of the meeting participants."
+          }
+        },
+        "-MrOFV6KGn0d8JH02hEe": {
+          "text": {
+            "en": "A list with the names of worker who filed grievances."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFV0Unf7W9f9zz92e": true
+      },
+      "text": {
+        "en": "There should always be a set agenda during a committee meeting. What is an agenda?"
+      },
+      "title": {
+        "en": "Committee meetings"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFVM3s_A3I745rrNL": {
+      "answers": {
+        "-MrOFVS0eA9hq850KCKw": {
+          "text": {
+            "en": "To keep a written record, in order to share what was discussed and decided with employees."
+          }
+        },
+        "-MrOFVVv88vKf4SrHsac": {
+          "text": {
+            "en": "To register how many minutes the meeting took."
+          }
+        },
+        "-MrOFVXtHkwNjNRGrLSv": {
+          "text": {
+            "en": "To keep a written record and share what was discussed and decided with communities outside the factory."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFVS0eA9hq850KCKw": true
+      },
+      "text": {
+        "en": "The notes of the meeting are called meeting minutes. What is the purpose of meeting minutes?"
+      },
+      "title": {
+        "en": "Meeting minutes"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFVZqhj2WTq9fu0nA": {
+      "answers": {
+        "-MrOFVeoCb1ixrcuKR-E": {
+          "text": {
+            "en": "The person responsible for carrying out the action, how and when it should be carried out."
+          }
+        },
+        "-MrOFViiiNDkOW0OhwMQ": {
+          "text": {
+            "en": "The punishment schemes for grievances, how and when it should be carried out."
+          }
+        },
+        "-MrOFVkfHgx6loVDvtrG": {
+          "text": {
+            "en": "The production targets for the coming 12 months."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFVeoCb1ixrcuKR-E": true
+      },
+      "text": {
+        "en": "Meeting minutes and action plans help factories take action on the decided issues. What must be made clear in an action plan?"
+      },
+      "title": {
+        "en": "Work planning"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "-MrOFVmcfL5boJrLnZAA": {
+      "answers": {
+        "-MrOFVsZctSE75fsc-1n": {
+          "text": {
+            "en": "The Chair and the vice Chair are responsible to make sure that all committee members are equally heard at the meeting. "
+          }
+        },
+        "-MrOFVwUzgwrWIbn-XKm": {
+          "text": {
+            "en": "The Chair and the vice Chair are responsible to make sure that female workers are heard over male workers."
+          }
+        },
+        "-MrOFVyTUeHRDZZvGb6X": {
+          "text": {
+            "en": "The Chair and the vice Chair are responsible to make sure that male workers are heard over female workers."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFVsZctSE75fsc-1n": true
+      },
+      "text": {
+        "en": "What special roles do the Chair/Vice chair have at the committee meeting? "
+      },
+      "title": {
+        "en": "Roles & responsibilities"
+      },
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    },
+    "i_learned_something_new": {
+      "answers": {
+        "-MdKa9ogmWOXyeHFzKgn": {
+          "text": {
+            "en": ":yes:"
+          }
+        },
+        "-MdKaA1Ziu8VnrVplnPT": {
+          "text": {
+            "en": ":no:"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MdKa9ogmWOXyeHFzKgn": true
+      },
+      "text": {
+        "en": "I learned something new from this Quizrr module."
+      },
+      "title": {
+        "en": "Post-Training Feedback"
+      },
+      "multiChoice": false,
+      "maxChoices": 1,
+      "createdAt": "2023-07-28T14:03:11.795Z",
+      "updatedAt": "2023-08-07T07:04:29.285Z"
+    }
+  },
+  "movies": {}
+}

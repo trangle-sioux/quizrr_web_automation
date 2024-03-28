@@ -1,0 +1,362 @@
+[
+  {
+    "email": "quizrra+0player3c19016@gmail.com",
+    "idClean": "PL3-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-752112000000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "0b68f654-5569-437b-a67d-3fcdd570a315",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    }
+  },
+  {
+    "email": "quizrra+0player4c19016@gmail.com",
+    "idClean": "PL4-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-749433600000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "36f7bb01-7d99-4eff-b943-a4aaee08acba",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    }
+  },
+  {
+    "email": "quizrra+0subplayer3ad1c19016@gmail.com",
+    "idClean": "SUB3-AD1",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-752112000000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "a58cdc99-2cb6-437d-90bd-0f33f9aee173",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    }
+  },
+  {
+    "email": "quizrra+0subplayer4ad1c19016@gmail.com",
+    "idClean": "SUB4-AD1",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-749433600000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "3d6204e2-57fd-4508-bb06-02fff587c26b",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    }
+  },
+  {
+    "email": "quizrra+1player3c19016@gmail.com",
+    "idClean": "PL3-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-752112000000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "cf6dfc9b-9b97-4157-9092-0db89b5e9044",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    }
+  },
+  {
+    "email": "quizrra+1player4c19016@gmail.com",
+    "idClean": "PL4-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-749347200000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "80cd178d-c343-4fa5-be31-cdca2feb365f",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    }
+  },
+  {
+    "email": "quizrra+1subplayer3ad1c19016@gmail.com",
+    "idClean": "PL3-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-749347200000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "b0adfe1e-67fb-4c9a-977a-99c93e87e618",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    }
+  },
+  {
+    "email": "quizrra+1subplayer4ad1c19016@gmail.com",
+    "idClean": "P4-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-752112000000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "46729290-17cd-4a0e-a1ef-2fc58f22cf68",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    }
+  },
+  {
+    "email": "quizrra+2player3c19016@gmail.com",
+    "idClean": "2PL2-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-746755200000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "e21e205f-3eeb-4f71-88c4-9c5393d0a7d9",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    }
+  },
+  {
+    "email": "quizrra+2player4c19016@gmail.com",
+    "idClean": "2PL4-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-749347200000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "31c58a19-f092-4530-9a44-6497c2f7caf5",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    }
+  },
+  {
+    "email": "quizrra+2subplayer3ad1c19016@gmail.com",
+    "idClean": "2P3-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-720662400000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "799adb00-f3d5-475b-b348-a57054568a2f",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    }
+  },
+  {
+    "email": "quizrra+2subplayer4ad1c19016@gmail.com",
+    "idClean": "2P4-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-717811200000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "6bd8a5bf-039a-48a1-a6e6-1a2044e1d7eb",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    }
+  },
+  {
+    "email": "quizrra+3player3c19016@gmail.com",
+    "idClean": "3PL3-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-720489600000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "2a7fb347-2623-4df1-a293-aaefc45112c9",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    }
+  },
+  {
+    "email": "quizrra+3player4c19016@gmail.com",
+    "idClean": "3PL4-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-752112000000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "d239d80e-2b50-4867-9a78-fd1dc43ea16a",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    }
+  },
+  {
+    "email": "quizrra+3subplayer3ad1c19016@gmail.com",
+    "idClean": "3P3-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-783561600000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "16d50a7f-ad20-4c02-aa11-bd19b6fb68ce",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    }
+  },
+  {
+    "email": "quizrra+3subplayer4ad1c19016@gmail.com",
+    "idClean": "3P4-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-720576000000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "ef128ce1-358f-4e75-bad8-29941d1ad248",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    }
+  },
+  {
+    "email": "quizrra+4player3c19016@gmail.com",
+    "idClean": "4PL3-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-722995200000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "4e36f3de-3c02-4834-b625-2a8746ca0b67",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    }
+  },
+  {
+    "email": "quizrra+4player4c19016@gmail.com",
+    "idClean": "4PL4-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-723081600000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "0be997eb-1622-4860-8847-385d99651f8f",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    }
+  },
+  {
+    "email": "quizrra+4subplayer3ad1c19016@gmail.com",
+    "idClean": "4P3-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-783648000000"
+      }
+    },
+    "jobLevel": "worker",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "3be139ca-e7f8-4f79-b4fa-27b988c5af62",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    }
+  },
+  {
+    "email": "quizrra+4subplayer4ad1c19016@gmail.com",
+    "idClean": "4P4-A1-19016",
+    "gender": "female",
+    "dateOfBirth": {
+      "$date": {
+        "$numberLong": "-780969600000"
+      }
+    },
+    "jobLevel": "manager",
+    "country": "thailand",
+    "accountNumber": "",
+    "accountNumberIntent": "",
+    "generatedId": "079ecd0e-afce-46dd-ae8d-473687e4a03c",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    }
+  }
+]

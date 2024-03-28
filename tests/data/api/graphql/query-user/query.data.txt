@@ -1,0 +1,147 @@
+query User($demoAccounts: [String], $isDemo: Boolean) {
+  me(params: {demoAccounts: $demoAccounts, isDemo: $isDemo}) {
+    _id
+    email
+    role
+    name {
+      first
+      last
+      __typename
+    }
+    invitedUsers {
+      _id
+      email
+      name {
+        first
+        last
+        __typename
+      }
+      isVerified
+      __typename
+    }
+    accountUsers {
+      _id
+      role
+      email
+      name {
+        first
+        last
+        __typename
+      }
+      accounts {
+        _id
+        role
+        name
+        __typename
+      }
+      isVerified
+      __typename
+    }
+    accounts {
+      _id
+      role
+      name
+      team
+      allowedUsersCount
+      contract {
+        documentLink
+        isSigned
+        __typename
+      }
+      accessibleQRCodes
+      inviteTokens {
+        _id
+        role
+        team
+        __typename
+      }
+      accountType
+      factories
+      facilityTeam {
+        _id
+        facility
+        name
+        __typename
+      }
+      accountFacilityType
+      __typename
+    }
+    factories {
+      ...FactoryInformationFragment
+      __typename
+    }
+    followedFactories {
+      ...FactoryInformationFragment
+      __typename
+    }
+    brands {
+      _id
+      name
+      factories {
+        ...FactoryInformationFragment
+        __typename
+      }
+      __typename
+    }
+    organizations {
+      _id
+      name
+      factories {
+        ...FactoryInformationFragment
+        __typename
+      }
+      brands {
+        _id
+        name
+        factories {
+          ...FactoryInformationFragment
+          __typename
+        }
+        __typename
+      }
+      __typename
+    }
+    config
+    featurePackage {
+      ...FeaturePackageFragment
+      __typename
+    }
+    __typename
+  }
+}
+
+fragment FactoryInformationFragment on Factory {
+  _id
+  name
+  localisedName
+  type
+  isInvalidated
+  isTestFactory
+  facilityType
+  contractStartDate
+  contractEndDate
+  employeeCount
+  market {
+    name
+    __typename
+  }
+  __typename
+}
+
+fragment FeaturePackageFragment on FeaturePackage {
+  _id
+  brand
+  role
+  signupFlow
+  trainingIds
+  dynamicConfig
+  features
+  signupSteps {
+    id
+    features
+    __typename
+  }
+  token
+  isSandbox
+  __typename
+}

@@ -1,0 +1,1062 @@
+[
+  {
+    "_id": {
+      "$oid": "6012d57de8b0d7676f5af8de"
+    },
+    "name": "taiwan",
+    "regions": []
+  },
+  {
+    "_id": {
+      "$oid": "619e4320fa153660c4180536"
+    },
+    "name": "cambodia",
+    "regions": [
+      {
+        "name": {
+          "en": "1",
+          "tw": "2"
+        }
+      },
+      {
+        "name": {
+          "en": "2",
+          "tw": "4332323"
+        }
+      },
+      {
+        "name": {
+          "en": "1",
+          "tw": "2"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6054878d60f2fc5c8d2fba14"
+    },
+    "name": "jordan"
+  },
+  {
+    "_id": {
+      "$oid": "5784b128acc740cc2765e60b"
+    },
+    "name": "china",
+    "regions": []
+  },
+  {
+    "_id": {
+      "$oid": "60d9dddbd8117c4de27d2bde"
+    },
+    "name": "myanmar",
+    "regions": [
+      {
+        "name": {
+          "en": "a",
+          "cn": "b",
+          "bd": "c"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6054878360f2fc5c8d2fba13"
+    },
+    "name": "egypt",
+    "regions": [
+      {
+        "name": {
+          "en": "1212",
+          "ar": "2323"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "609ba57eb9f49b132485cf6d"
+    },
+    "name": "philippines"
+  },
+  {
+    "_id": {
+      "$oid": "5784b120acc740cc2765e60a"
+    },
+    "name": "mauritius"
+  },
+  {
+    "_id": {
+      "$oid": "6193967c50492303ab37eec0"
+    },
+    "name": "vietnam",
+    "regions": [
+      {
+        "name": {
+          "en": "1",
+          "vn": ""
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "60f029953e15e842c6aca950"
+    },
+    "name": "india",
+    "regions": [
+      {
+        "name": {
+          "en": "Andaman and Nicobar",
+          "hi": "",
+          "kn": "ಅಂಡಮಾನ್ ಮತ್ತು ನಿಕೋಬಾರ್ ದ್ವೀಪಗಳು ",
+          "ta": "அந்தமான் மற்றும் நிக்கோபார் தீவுகள் ",
+          "te": " అరుణాచల ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश",
+          "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ ",
+          "ta": "ஆந்திரப் பிரதேசம்",
+          "te": "ఆంధ్ర ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Arunachal Pradesh",
+          "hi": "अरुणाचल प्रदेश",
+          "kn": "ಅರುಣಾಚಲ ಪ್ರದೇಶ",
+          "ta": "அருணாச்சல பிரதேசம்",
+          "te": " అరుణాచల ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Assam",
+          "hi": "असम",
+          "kn": "ಅಸ್ಸಾಂ ",
+          "ta": "அசாம்",
+          "te": "అస్సాం"
+        }
+      },
+      {
+        "name": {
+          "en": "Bihar",
+          "hi": "बिहार",
+          "kn": "ಬಿಹಾರ ",
+          "ta": "பீகார்",
+          "te": "బీహార్"
+        }
+      },
+      {
+        "name": {
+          "en": "Chandigarh",
+          "hi": "चंडीगढ़",
+          "kn": "ಚಂಡೀಗಢ",
+          "ta": "சண்டிகர்",
+          "te": "ఛండీ ఘర్"
+        }
+      },
+      {
+        "name": {
+          "en": "Chhattisgarh",
+          "hi": "छत्तीसगढ़",
+          "kn": " ಛತ್ತೀಸ್‌ಘಡ್",
+          "ta": "சத்தீஸ்கர்",
+          "te": "చత్తీస్ ఘర్ "
+        }
+      },
+      {
+        "name": {
+          "en": "Haryana",
+          "hi": "हरयाणा",
+          "kn": "ಹರಿಯಾಣ",
+          "ta": "ஹரியானா",
+          "te": "హర్యానా"
+        }
+      },
+      {
+        "name": {
+          "en": "Jharkhand",
+          "hi": "झारखण्ड",
+          "kn": "ಝಾರ್ಖಂಡ್",
+          "ta": "ஜார்கண்ட",
+          "te": "జార్ఖండ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Karnataka",
+          "hi": "कर्नाटक",
+          "kn": "ಕರ್ನಾಟಕ",
+          "ta": "கர்நாடகா",
+          "te": "కర్ణాటక"
+        }
+      },
+      {
+        "name": {
+          "en": "Kerala",
+          "hi": "केरला",
+          "kn": "ಕೇರಳ ",
+          "ta": "கேரளா",
+          "te": "కేరళ"
+        }
+      },
+      {
+        "name": {
+          "en": "Madhya Pradesh",
+          "hi": "मध्य प्रदेश",
+          "kn": "ಮಧ್ಯ ಪ್ರದೇಶ ",
+          "ta": "மத்தியப் பிரதேசம்",
+          "te": "మధ్య ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र",
+          "kn": " ಮಹಾರಾಷ್ಟ್ರ",
+          "ta": "மகாராஷ்டிரா",
+          "te": "మహారాష్ట్ర"
+        }
+      },
+      {
+        "name": {
+          "en": "Odisha",
+          "hi": "ओडिशा",
+          "kn": "ಒಡಿಶಾ",
+          "ta": "ஒரிசா",
+          "te": "ఒరిస్సా/ఒడిస్స"
+        }
+      },
+      {
+        "name": {
+          "en": "Puducherry",
+          "hi": "पुदुचेरी",
+          "kn": "ಪುದುಚೇರಿ",
+          "ta": "புதுச்சேரி",
+          "te": "పుదుచ్చేరి"
+        }
+      },
+      {
+        "name": {
+          "en": "Tamil Nadu",
+          "hi": "पुदुचेरी",
+          "kn": "ತಮಿಳ್ ನಾಡು",
+          "ta": "தமிழ்நாடு",
+          "te": "తమిళనాడు"
+        }
+      },
+      {
+        "name": {
+          "en": "Telangana",
+          "hi": "तेलंगाना",
+          "kn": "ತ್ರಿಪುರ",
+          "ta": "தெலுங்கானா ",
+          "te": "తెలంగాణ"
+        }
+      },
+      {
+        "name": {
+          "en": "Tripura",
+          "hi": "त्रिपुरा",
+          "kn": " ಉತ್ತರಾಖಂಡ",
+          "ta": "உத்தரப் பிரதேசம்",
+          "te": "త్రిపుర"
+        }
+      },
+      {
+        "name": {
+          "en": "Uttar Pradesh",
+          "hi": "उत्तर प्रदेश",
+          "kn": "ಪಶ್ಚಿಮ ಬಂಗಾಳ",
+          "ta": "உத்தரகண்ட்",
+          "te": "ఉత్తర ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "West Bengal",
+          "hi": "वेस्ट बंगाल",
+          "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ",
+          "ta": "வங்காளம்",
+          "te": "వెస్ట్ బెంగాల్"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd996a"
+    },
+    "regions": [],
+    "name": "mexico"
+  },
+  {
+    "_id": {
+      "$oid": "609ba57eb9f49b132485cf6e"
+    },
+    "name": "singapore"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f41"
+    },
+    "name": "sweden"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3c"
+    },
+    "name": "netherlands"
+  },
+  {
+    "_id": {
+      "$oid": "637768587229372dc3b114fc"
+    },
+    "regions": [],
+    "name": "ksa"
+  },
+  {
+    "_id": {
+      "$oid": "637768587229372dc3b114fd"
+    },
+    "regions": [],
+    "name": "uae"
+  },
+  {
+    "_id": {
+      "$oid": "60d9dddbd8117c4de27d2bdd"
+    },
+    "name": "indonesia"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f44"
+    },
+    "name": "usa"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f34"
+    },
+    "name": "canada"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f37"
+    },
+    "name": "france"
+  },
+  {
+    "_id": {
+      "$oid": "5784ed8027c7b9b04080be4a"
+    },
+    "name": "china"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f35"
+    },
+    "name": "denmark"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f32"
+    },
+    "name": "austria"
+  },
+  {
+    "_id": {
+      "$oid": "5bbcafdaa3f8c05cec90c323"
+    },
+    "name": "thailand"
+  },
+  {
+    "_id": {
+      "$oid": "5784ed9127c7b9b04080be4b"
+    },
+    "name": "bangladesh"
+  },
+  {
+    "_id": {
+      "$oid": "5784edaa27c7b9b04080be4c"
+    },
+    "name": "mauritius"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f39"
+    },
+    "name": "hong_kong"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f36"
+    },
+    "name": "finland"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f42"
+    },
+    "name": "switzerland"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3f"
+    },
+    "name": "south_africa"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f33"
+    },
+    "name": "belgium"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f31"
+    },
+    "name": "australia",
+    "regions": [
+      {
+        "name": {
+          "en": "Sydney"
+        }
+      },
+      {
+        "name": {
+          "en": "Melbourn"
+        }
+      }
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f40"
+    },
+    "name": "spain"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3a"
+    },
+    "name": "ireland"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3d"
+    },
+    "name": "norway"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3b"
+    },
+    "name": "italy"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f3e"
+    },
+    "name": "russia"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f43"
+    },
+    "name": "uk"
+  },
+  {
+    "_id": {
+      "$oid": "5e8aebfa5938493c998f6f38"
+    },
+    "name": "germany"
+  },
+  {
+    "_id": {
+      "$oid": "609ba57eb9f49b132485cf6f"
+    },
+    "name": "south_korea"
+  },
+  {
+    "_id": {
+      "$oid": "603e47e35d594f48c91d4399"
+    },
+    "name": "jordan",
+    "regions": []
+  },
+  {
+    "_id": {
+      "$oid": "609ba57eb9f49b132485cf6c"
+    },
+    "name": "japan"
+  },
+  {
+    "_id": {
+      "$oid": "6065957334d2b830e17cd970"
+    },
+    "name": "egypt"
+  },
+  {
+    "_id": {
+      "$oid": "60f029953e15e842c6aca951"
+    },
+    "name": "israel"
+  },
+  {
+    "_id": {
+      "$oid": "61e191e8b72778577775be65"
+    },
+    "regions": [],
+    "name": "democratic_republic_of_the_congo"
+  },
+  {
+    "_id": {
+      "$oid": "61ba0216e73b4a162c85b106"
+    },
+    "name": "qatar"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd9965"
+    },
+    "regions": [],
+    "name": "argentina"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd9966"
+    },
+    "regions": [],
+    "name": "columbia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaed"
+    },
+    "regions": [],
+    "name": "cape_verde"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaec"
+    },
+    "regions": [],
+    "name": "cameroon"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaee"
+    },
+    "regions": [],
+    "name": "chile"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaef"
+    },
+    "regions": [],
+    "name": "costa_rica"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf8"
+    },
+    "regions": [],
+    "name": "guyana"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf2"
+    },
+    "regions": [],
+    "name": "czech_republic"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf4"
+    },
+    "regions": [],
+    "name": "eritrea"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aafa"
+    },
+    "regions": [],
+    "name": "iraq"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aafc"
+    },
+    "regions": [],
+    "name": "kosovo"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aafe"
+    },
+    "regions": [],
+    "name": "lithuania"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab04"
+    },
+    "regions": [],
+    "name": "peru"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab08"
+    },
+    "regions": [],
+    "name": "serbia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab07"
+    },
+    "regions": [],
+    "name": "romania"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0a"
+    },
+    "regions": [],
+    "name": "slovakia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0d"
+    },
+    "regions": [],
+    "name": "south_sudan"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0f"
+    },
+    "regions": [],
+    "name": "syria"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e6"
+    },
+    "regions": [],
+    "name": "liberia"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e8"
+    },
+    "regions": [],
+    "name": "puerto_rico"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd9968"
+    },
+    "regions": [],
+    "name": "guatemala"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd996b"
+    },
+    "regions": [],
+    "name": "nicaragua"
+  },
+  {
+    "_id": {
+      "$oid": "638786fa06955903175a0155"
+    },
+    "regions": [],
+    "name": "yemen"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aae5"
+    },
+    "regions": [],
+    "name": "afghanistan"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aae6"
+    },
+    "regions": [],
+    "name": "albania"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aae8"
+    },
+    "regions": [],
+    "name": "bonaire"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aae9"
+    },
+    "regions": [],
+    "name": "bosnia_herzegovina"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf6"
+    },
+    "regions": [],
+    "name": "ghana"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf3"
+    },
+    "regions": [],
+    "name": "dominican_republic"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf7"
+    },
+    "regions": [],
+    "name": "greece"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aafb"
+    },
+    "regions": [],
+    "name": "kenya"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab03"
+    },
+    "regions": [],
+    "name": "north_macedonia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0e"
+    },
+    "regions": [],
+    "name": "suriname"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab10"
+    },
+    "regions": [],
+    "name": "togo"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab12"
+    },
+    "regions": [],
+    "name": "turkey"
+  },
+  {
+    "_id": {
+      "$oid": "63c7b0743bfd684dc899e899"
+    },
+    "regions": [],
+    "name": "great_britain"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e4"
+    },
+    "regions": [],
+    "name": "hungary"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd996c"
+    },
+    "regions": [],
+    "name": "panama"
+  },
+  {
+    "_id": {
+      "$oid": "620f7c0ece2e397083dda7de"
+    },
+    "regions": [],
+    "name": "poland"
+  },
+  {
+    "_id": {
+      "$oid": "638786fa06955903175a0156"
+    },
+    "regions": [],
+    "name": "sri_lanka"
+  },
+  {
+    "_id": {
+      "$oid": "638786fa06955903175a0158"
+    },
+    "regions": [],
+    "name": "nepal"
+  },
+  {
+    "_id": {
+      "$oid": "638786fa06955903175a0157"
+    },
+    "regions": [],
+    "name": "pakistan"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aae7"
+    },
+    "regions": [],
+    "name": "aruba"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf0"
+    },
+    "regions": [],
+    "name": "croatia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf5"
+    },
+    "regions": [],
+    "name": "ethiopia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf1"
+    },
+    "regions": [],
+    "name": "curacao"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaf9"
+    },
+    "regions": [],
+    "name": "iran"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaff"
+    },
+    "regions": [],
+    "name": "morocco"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab00"
+    },
+    "regions": [],
+    "name": "mozambique"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0c"
+    },
+    "regions": [],
+    "name": "somalia"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e5"
+    },
+    "regions": [],
+    "name": "ivory_coast"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e7"
+    },
+    "regions": [],
+    "name": "niger"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e9"
+    },
+    "regions": [],
+    "name": "venezuela"
+  },
+  {
+    "_id": {
+      "$oid": "63f76dae637ee30b7730cd60"
+    },
+    "regions": [],
+    "name": "laos"
+  },
+  {
+    "_id": {
+      "$oid": "6193967c50492303ab37eec1"
+    },
+    "name": "brazil"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd9967"
+    },
+    "regions": [],
+    "name": "el_salvador"
+  },
+  {
+    "_id": {
+      "$oid": "620cf3f3ce2e397083dd9969"
+    },
+    "regions": [],
+    "name": "honduras"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaeb"
+    },
+    "regions": [],
+    "name": "burundi"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aaea"
+    },
+    "regions": [],
+    "name": "bulgaria"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899aafd"
+    },
+    "regions": [],
+    "name": "latvia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab01"
+    },
+    "regions": [],
+    "name": "netherlands_antilles"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab02"
+    },
+    "regions": [],
+    "name": "nigeria"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab05"
+    },
+    "regions": [],
+    "name": "portugal"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab06"
+    },
+    "regions": [],
+    "name": "republic_of_guinea"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab09"
+    },
+    "regions": [],
+    "name": "sierra_leone"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab0b"
+    },
+    "regions": [],
+    "name": "slovenia"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab11"
+    },
+    "regions": [],
+    "name": "trinidad"
+  },
+  {
+    "_id": {
+      "$oid": "63c697493bfd684dc899ab13"
+    },
+    "regions": [],
+    "name": "ukraine"
+  },
+  {
+    "_id": {
+      "$oid": "63d283c4bc0c52476aa567e2"
+    },
+    "regions": [],
+    "name": "uganda"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e0"
+    },
+    "regions": [],
+    "name": "bhutan"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e1"
+    },
+    "regions": [],
+    "name": "burkina_faso"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e2"
+    },
+    "regions": [],
+    "name": "ecuador"
+  },
+  {
+    "_id": {
+      "$oid": "63dcf1b9bc0c52476aa8c2e3"
+    },
+    "regions": [],
+    "name": "haiti"
+  },
+  {
+    "_id": {
+      "$oid": "62957084391cb53a3cdfd5b4"
+    },
+    "regions": [],
+    "name": "malaysia"
+  },
+  {
+    "_id": {
+      "$oid": "65325d2008059305e73553c4"
+    },
+    "regions": [],
+    "name": "global"
+  },
+  {
+    "_id": {
+      "$oid": "64784cc9cd2d6b4df48b0c6a"
+    },
+    "regions": [],
+    "name": "other"
+  },
+  {
+    "_id": {
+      "$oid": "659cac897e02d86bb4c33cb9"
+    },
+    "regions": [],
+    "name": "tunisia"
+  }
+]

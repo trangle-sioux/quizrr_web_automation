@@ -1,0 +1,24 @@
+{
+  "additional_information": "Additional Information",
+  "contract_period": "Contract period (months)",
+  "created_by": "Created By",
+  "discount": "Discount",
+  "form": {
+    "generate_registration_code": "Generate registration code",
+    "registration_code": "Registration code",
+    "registration_link": "Registration link",
+    "update_registration_code": "Update registration code"
+  },
+  "inviting_brand": "Inviting Brand",
+  "management": {
+    "create_a_new_registration_code": "Create a new registration code",
+    "search_registration_codes": "Search registration codes",
+    "title": "Manage registration codes"
+  },
+  "month": "month(s)",
+  "operation_owner": "Operations owner",
+  "prepaid_tablets": "Prepaid Tablets",
+  "sale_owner": "Sales owner",
+  "setup_fee": "Setup Fee",
+  "training_license": "Training License"
+}

@@ -1,0 +1,4 @@
+{
+  "isDemo": false,
+  "demoAccounts": []
+}

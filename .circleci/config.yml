@@ -1,0 +1,137 @@
+version: 2.1
+parameters:
+  test_run_ids:
+    type: string
+    default: ""
+  testing_environment:
+    type: string
+    default: "dev"
+  run_all_tests:
+    type: boolean
+    default: true
+
+executors:
+  playwright:
+    docker:
+      - image: "cimg/node:18.10"
+      - image: "mcr.microsoft.com/playwright:v1.40.1"
+      - image: "cimg/go:1.18.1"
+    working_directory: ~/project
+commands:
+  checkout_and_install_node:
+    description: checkout and install dependencies
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - 'node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}'
+      - run:
+          name: Install Dependencies
+          command: |
+            if [ ! -d node_modules ]; then
+              npm ci
+            fi
+      - save_cache:
+          key: 'node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}'
+          paths:
+            - ./node_modules
+  install_playwright_browsers:
+    description: install browsers of playwright
+    steps:
+      - run:
+          name: Install Playwright Browsers
+          command: "npm run install:browsers"
+  get_gmail_authentications:
+    description: fetch gmail credentials and token from Circle CI
+    steps:
+      - run:
+          name: download gmail authentication files
+          command: |
+            if [ ! -e ./utils/gmail/gmail-credentials.json ]; then
+              touch ./utils/gmail/gmail-credentials.json
+            fi
+            if [ ! -e ./utils/gmail/gmail-token.json ]; then
+              touch ./utils/gmail/gmail-token.json
+            fi
+            echo $GMAIL_CREDENTIALS >> ./utils/gmail/gmail-credentials.json
+            echo $GMAIL_TOKEN >> ./utils/gmail/gmail-token.json
+  store_test_results_and_artifacts:
+    steps:
+      - store_test_results:
+          path: results.xml
+      - store_artifacts:
+          path: playwright-report
+
+jobs:
+  run_e2e_testing:
+    executor:
+      name: playwright
+    parallelism: 4
+    resource_class: large
+    parameters:
+      script:
+        type: string
+        default: "test:chromium"
+    steps:
+      - checkout_and_install_node
+      - install_playwright_browsers
+      - get_gmail_authentications
+      - run:
+          name: Execute End-to-End Testing
+          environment:
+            TESTRAIL_TESTRUN_IDS: <<pipeline.parameters.test_run_ids>>
+            TEST_ENVIRONMENT: << pipeline.parameters.testing_environment >>
+          command: >
+            SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run << parameters.script >> -- --shard=${SHARD}/${CIRCLE_NODE_TOTAL}
+      - store_test_results_and_artifacts
+
+workflows:
+  run_automation_testing_simple_workflow:
+    when:
+      and:
+        - equal: [false, << pipeline.parameters.run_all_tests >>]
+    jobs:
+      - run_e2e_testing:
+          name: chromium_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+
+  run_automation_testing_full_workflow:
+    when:
+      and:
+        - equal: [true, << pipeline.parameters.run_all_tests >>]
+    jobs:
+      - run_e2e_testing:
+          name: chromium_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+
+      - run_e2e_testing:
+          name: safari_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:safari
+
+      - run_e2e_testing:
+          name: firefox_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:firefox
+
+      - run_e2e_testing:
+          name: emulator_pixel_5_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:emulator-pixel-5
+
+      - run_e2e_testing:
+          name: simulator_iphone_12_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:simulator-iphone-12

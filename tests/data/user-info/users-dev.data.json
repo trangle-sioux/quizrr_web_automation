@@ -1,0 +1,1074 @@
+{
+  "static": [
+    {
+      "email": "quizrra+0ownerstatic@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65a8d96201674680ed5622b8"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+1ownerstatic@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65a8d9a101674680ed562312"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+2ownerstatic@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65a8d9d101674680ed56236d"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+3ownerstatic@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65a8da0e01674680ed5623cb"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+4ownerstatic@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65a8da3d01674680ed562424"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+0adminstatic@gmail.com",
+      "accounts": [
+        {
+          "role": "team-admin"
+        }
+      ],
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+1adminstatic@gmail.com",
+      "accounts": [
+        {
+          "role": "team-admin"
+        }
+      ],
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+2adminstatic@gmail.com",
+      "accounts": [
+        {
+          "role": "team-admin"
+        }
+      ],
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+3adminstatic@gmail.com",
+      "accounts": [
+        {
+          "role": "team-admin"
+        }
+      ],
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+4adminstatic@gmail.com",
+      "accounts": [
+        {
+          "role": "team-admin"
+        }
+      ],
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+player1705907786245@gmail.com",
+      "accounts": [
+        {
+          "role": "player"
+        }
+      ],
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+player1705908432403@gmail.com",
+      "accounts": [
+        {
+          "role": "player"
+        }
+      ],
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+player1705908587068@gmail.com",
+      "accounts": [
+        {
+          "role": "player"
+        }
+      ],
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+player1705908743185@gmail.com",
+      "accounts": [
+        {
+          "role": "player"
+        }
+      ],
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+player1705910781136@gmail.com",
+      "accounts": [
+        {
+          "role": "player"
+        }
+      ],
+      "role": "account_player"
+    }
+  ],
+
+  "C19016": [
+    {
+      "email": "quizrra+0admin1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc1263263fc32b1caca3c3"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+0player1c19016t@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0admin2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "team-admin"
+        }
+      ],
+      "isVerified": false,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+0admin3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc1529263fc32b1caca70c"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+0ownersc19016@gmail.com",
+      "isVerified": true,
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+0player2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0player3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0player4c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0subplayer1ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc1263263fc32b1caca3c3"
+          }
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0subplayer2ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc1263263fc32b1caca3c3"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0subplayer3ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc1263263fc32b1caca3c3"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+0subplayer4ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc0ea2263fc32b1cac9f05"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc1263263fc32b1caca3c3"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1admin1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc3b1d263fc32b1cacae88"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+1admin2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "team-admin"
+        }
+      ],
+      "isVerified": false,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+1admin3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc3ac1263fc32b1cacae50"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+1ownersc19016@gmail.com",
+      "isVerified": true,
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+1player1c19016t@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1player2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1player3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1player4c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1subplayer1ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc3b1d263fc32b1cacae88"
+          }
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1subplayer2ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc3b1d263fc32b1cacae88"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1subplayer3ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc3b1d263fc32b1cacae88"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+1subplayer4ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc38e3263fc32b1cacacfd"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc3b1d263fc32b1cacae88"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2admin1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc402b263fc32b1cacb207"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+2admin2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "team-admin"
+        }
+      ],
+      "isVerified": false,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+2admin3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc40ab263fc32b1cacb291"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+2ownersc19016@gmail.com",
+      "isVerified": true,
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+2player1c19016t@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2player2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2player3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2player4c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2subplayer1ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc402b263fc32b1cacb207"
+          }
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2subplayer2ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc402b263fc32b1cacb207"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2subplayer3ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc402b263fc32b1cacb207"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+2subplayer4ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc3e2f263fc32b1cacb081"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc402b263fc32b1cacb207"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3admin1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc46dd263fc32b1cacb7cb"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+3admin2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "team-admin"
+        }
+      ],
+      "isVerified": false,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+3admin3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc473e263fc32b1cacb833"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+3ownersc19016@gmail.com",
+      "isVerified": true,
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+3player1c19016t@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3player2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3player3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3player4c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3subplayer1ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc46dd263fc32b1cacb7cb"
+          }
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3subplayer2ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc46dd263fc32b1cacb7cb"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3subplayer3ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc46dd263fc32b1cacb7cb"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+3subplayer4ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4526263fc32b1cacb597"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc46dd263fc32b1cacb7cb"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4admin1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc4aef263fc32b1cacbbd5"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+4admin2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "team-admin"
+        }
+      ],
+      "isVerified": false,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+4admin3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "team-admin",
+          "team": {
+            "$oid": "65dc4ab9263fc32b1cacbb98"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "team_admin"
+    },
+    {
+      "email": "quizrra+4ownersc19016@gmail.com",
+      "isVerified": true,
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+4player1c19016t@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4player2c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4player3c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4player4c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player"
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4subplayer1ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc4aef263fc32b1cacbbd5"
+          }
+        }
+      ],
+      "isVerified": false,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4subplayer2ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc4aef263fc32b1cacbbd5"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4subplayer3ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc4aef263fc32b1cacbbd5"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    },
+    {
+      "email": "quizrra+4subplayer4ad1c19016@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "65dc4944263fc32b1cacba0d"
+          },
+          "role": "player",
+          "team": {
+            "$oid": "65dc4aef263fc32b1cacbbd5"
+          }
+        }
+      ],
+      "isVerified": true,
+      "role": "account_player"
+    }
+  ],
+  "dynamic": [
+    {
+      "email": "quizrra+0ownersdynamic@gmail.com",
+      "accounts": [
+        {
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+1ownersdynamic@gmail.com",
+      "accounts": [
+        {
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+2ownersdynamic@gmail.com",
+      "accounts": [
+        {
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+3ownersdynamic@gmail.com",
+      "accounts": [
+        {
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    },
+    {
+      "email": "quizrra+4ownersdynamic@gmail.com",
+      "accounts": [
+        {
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    }
+  ]
+}

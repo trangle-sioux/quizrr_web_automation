@@ -1,0 +1,16 @@
+{
+  "static": [
+    {
+      "email": "quizrra+ownerstatic1@gmail.com",
+      "accounts": [
+        {
+          "_id": {
+            "$oid": "6597b881b827826d58436401"
+          },
+          "role": "owner"
+        }
+      ],
+      "role": "account_owner"
+    }
+  ]
+}

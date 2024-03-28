@@ -1,0 +1,15 @@
+node_modules/
+config/
+test-results/*
+playwright-report/*
+blob-report/*
+results.xml
+/playwright/.cache/
+.vscode/launch.json
+.DS_Store
+.eslintignore
+.env
+report.json
+lib/
+utils/gmail/*.json
+store-downloaded-reports/*

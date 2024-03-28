@@ -1,0 +1,97 @@
+[
+  {
+    "_id": {
+      "$oid": "65dc0ea3263fc32b1cac9f0c"
+    },
+    "environment": "production",
+    "factoryId": "65dc0ea2263fc32b1cac9efc",
+    "config": {
+      "trainingSeriesList": [
+        {
+          "fileName": "full-quiz",
+          "market": "thailand",
+          "version": "v1",
+          "programId": "sioux_automation_test"
+        }
+      ],
+      "dynamicConfigUrl": "dynamicConfig.core.manufacturingFullidWithSearchableCountries.json",
+      "isSandbox": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65dc38e4263fc32b1cacad04"
+    },
+    "environment": "production",
+    "factoryId": "65dc38e3263fc32b1cacacf4",
+    "config": {
+      "trainingSeriesList": [
+        {
+          "fileName": "full-quiz",
+          "market": "thailand",
+          "version": "v1",
+          "programId": "sioux_automation_test"
+        }
+      ],
+      "dynamicConfigUrl": "dynamicConfig.core.manufacturingFullidWithSearchableCountries.json",
+      "isSandbox": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65dc3e30263fc32b1cacb088"
+    },
+    "environment": "production",
+    "factoryId": "65dc3e2f263fc32b1cacb078",
+    "config": {
+      "trainingSeriesList": [
+        {
+          "fileName": "full-quiz",
+          "market": "thailand",
+          "version": "v1",
+          "programId": "sioux_automation_test"
+        }
+      ],
+      "dynamicConfigUrl": "dynamicConfig.core.manufacturingFullidWithSearchableCountries.json",
+      "isSandbox": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65dc4526263fc32b1cacb59e"
+    },
+    "environment": "production",
+    "factoryId": "65dc4525263fc32b1cacb58e",
+    "config": {
+      "trainingSeriesList": [
+        {
+          "fileName": "full-quiz",
+          "market": "thailand",
+          "version": "v1",
+          "programId": "sioux_automation_test"
+        }
+      ],
+      "dynamicConfigUrl": "dynamicConfig.core.manufacturingFullidWithSearchableCountries.json",
+      "isSandbox": null
+    }
+  },
+  {
+    "_id": {
+      "$oid": "65dc4945263fc32b1cacba14"
+    },
+    "environment": "production",
+    "factoryId": "65dc4944263fc32b1cacba04",
+    "config": {
+      "trainingSeriesList": [
+        {
+          "fileName": "full-quiz",
+          "market": "thailand",
+          "version": "v1",
+          "programId": "sioux_automation_test"
+        }
+      ],
+      "dynamicConfigUrl": "dynamicConfig.core.manufacturingFullidWithSearchableCountries.json",
+      "isSandbox": null
+    }
+  }
+]

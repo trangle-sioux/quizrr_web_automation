@@ -1,0 +1,40 @@
+{
+  "buttons": {
+    "sign_up": "Sign up"
+  },
+  "labels": {
+    "business_licence_no": "Business licence number",
+    "contact_email": "Email",
+    "contact_information_training_responsible": "Contact information, training responsible",
+    "contact_name": "Name",
+    "contact_phone_number": "Phone number",
+    "discount_code": "Discount code",
+    "facility_address": "Facility address",
+    "facility_information": "Facility information",
+    "facility_market": "Facility market",
+    "facility_name_english": "Facility name, English",
+    "facility_name_local_language": "Facility name, local language (if applicable)",
+    "facility_sub_account_type": "Facility type",
+    "industry_and_products": "Industry and products",
+    "inviting_brand": "Inviting brand",
+    "other_information": "Other information",
+    "registration_code": "Registration code",
+    "total_number_of_employees": "Total number of employees including management and workers"
+  },
+  "registration_state": {
+    "build_contract": "Building contract ({{currentStep}}/{{totalStep}})",
+    "create_account": "Creating account ({{currentStep}}/{{totalStep}})",
+    "failed": "Signup Failed! ({{currentStep}}/{{totalStep}})",
+    "finish": "Done ({{currentStep}}/{{totalStep}})",
+    "send_contract": "Sending contract ({{currentStep}}/{{totalStep}})",
+    "start_registering": "Start Signing up",
+    "verify_data": "Verifying data ({{currentStep}}/{{totalStep}})"
+  },
+  "sign_contract_notice": "Dashboard cannot be used!",
+  "sign_contract_notice_desc": "There is an unsigned contract.",
+  "sign_up_success": {
+    "message": "Check your email or <0>Click here to complete signup</0>",
+    "title": "You have signed up successfully"
+  },
+  "terms_conditions": "I have read and agree to the <0>Privacy Policy</0> and the <1>Terms and Conditions of use</1>"
+}

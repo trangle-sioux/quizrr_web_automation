@@ -1,0 +1,700 @@
+[
+  {
+    "name": "mauritius"
+  },
+  {
+    "name": "canada"
+  },
+  {
+    "name": "austria"
+  },
+  {
+    "name": "ireland"
+  },
+  {
+    "name": "germany"
+  },
+  {
+    "name": "taiwan"
+  },
+  {
+    "name": "japan"
+  },
+  {
+    "name": "myanmar"
+  },
+  {
+    "name": "india",
+    "regions": [
+      {
+        "name": {
+          "en": "Andaman and Nicobar",
+          "hi": "अंडमान व नोकोबार द्वीप समूह",
+          "kn": "ಅಂಡಮಾನ್ ಮತ್ತು ನಿಕೋಬಾರ್ ದ್ವೀಪಗಳು ",
+          "ta": "அந்தமான் மற்றும் நிக்கோபார் தீவுகள் ",
+          "te": " అరుణాచల ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Andhra Pradesh",
+          "hi": "आंध्र प्रदेश",
+          "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ ",
+          "ta": "ஆந்திரப் பிரதேசம்",
+          "te": "ఆంధ్ర ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Arunachal Pradesh",
+          "hi": "अरुणाचल प्रदेश",
+          "kn": "ಅರುಣಾಚಲ ಪ್ರದೇಶ",
+          "ta": "அருணாச்சல பிரதேசம்",
+          "te": " అరుణాచల ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Assam",
+          "hi": "असम",
+          "kn": "ಅಸ್ಸಾಂ ",
+          "ta": "அசாம்",
+          "te": "అస్సాం"
+        }
+      },
+      {
+        "name": {
+          "en": "Bihar",
+          "hi": "बिहार",
+          "kn": "ಬಿಹಾರ ",
+          "ta": "பீகார்",
+          "te": "బీహార్"
+        }
+      },
+      {
+        "name": {
+          "en": "Chandigarh",
+          "hi": "चंडीगढ़",
+          "kn": "ಚಂಡೀಗಢ",
+          "ta": "சண்டிகர்",
+          "te": "ఛండీ ఘర్"
+        }
+      },
+      {
+        "name": {
+          "en": "Chhattisgarh",
+          "hi": "छत्तीसगढ़",
+          "kn": " ಛತ್ತೀಸ್‌ಘಡ್",
+          "ta": "சத்தீஸ்கர்",
+          "te": "చత్తీస్ ఘర్ "
+        }
+      },
+      {
+        "name": {
+          "en": "Haryana",
+          "hi": "हरयाणा",
+          "kn": "ಹರಿಯಾಣ",
+          "ta": "ஹரியானா",
+          "te": "హర్యానా"
+        }
+      },
+      {
+        "name": {
+          "en": "Jharkhand",
+          "hi": "झारखण्ड",
+          "kn": "ಝಾರ್ಖಂಡ್",
+          "ta": "ஜார்கண்ட",
+          "te": "జార్ఖండ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Karnataka",
+          "hi": "कर्नाटक",
+          "kn": "ಕರ್ನಾಟಕ",
+          "ta": "கர்நாடகா",
+          "te": "కర్ణాటక"
+        }
+      },
+      {
+        "name": {
+          "en": "Kerala",
+          "hi": "केरला",
+          "kn": "ಕೇರಳ ",
+          "ta": "கேரளா",
+          "te": "కేరళ"
+        }
+      },
+      {
+        "name": {
+          "en": "Madhya Pradesh",
+          "hi": "मध्य प्रदेश",
+          "kn": "ಮಧ್ಯ ಪ್ರದೇಶ ",
+          "ta": "மத்தியப் பிரதேசம்",
+          "te": "మధ్య ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Maharashtra",
+          "hi": "महाराष्ट्र",
+          "kn": " ಮಹಾರಾಷ್ಟ್ರ",
+          "ta": "மகாராஷ்டிரா",
+          "te": "మహారాష్ట్ర"
+        }
+      },
+      {
+        "name": {
+          "en": "Odisha",
+          "hi": "ओडिशा",
+          "kn": "ಒಡಿಶಾ",
+          "ta": "ஒரிசா",
+          "te": "ఒరిస్సా/ఒడిస్స"
+        }
+      },
+      {
+        "name": {
+          "en": "Puducherry",
+          "hi": "पुदुचेरी",
+          "kn": "ಪುದುಚೇರಿ",
+          "ta": "புதுச்சேரி",
+          "te": "పుదుచ్చేరి"
+        }
+      },
+      {
+        "name": {
+          "en": "Tamil Nadu",
+          "hi": "पुदुचेरी",
+          "kn": "ತಮಿಳ್ ನಾಡು",
+          "ta": "தமிழ்நாடு",
+          "te": "తమిళనాడు"
+        }
+      },
+      {
+        "name": {
+          "en": "Telangana",
+          "hi": "तेलंगाना",
+          "kn": "ತ್ರಿಪುರ",
+          "ta": "தெலுங்கானா ",
+          "te": "తెలంగాణ"
+        }
+      },
+      {
+        "name": {
+          "en": "Tripura",
+          "hi": "त्रिपुरा",
+          "kn": " ಉತ್ತರಾಖಂಡ",
+          "ta": "உத்தரப் பிரதேசம்",
+          "te": "త్రిపుర"
+        }
+      },
+      {
+        "name": {
+          "en": "Uttar Pradesh",
+          "hi": "उत्तर प्रदेश",
+          "kn": "ಪಶ್ಚಿಮ ಬಂಗಾಳ",
+          "ta": "உத்தரகண்ட்",
+          "te": "ఉత్తర ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "West Bengal",
+          "hi": "वेस्ट बंगाल",
+          "kn": "ಆಂಧ್ರ ಪ್ರದೇಶ",
+          "ta": "வங்காளம்",
+          "te": "వెస్ట్ బెంగాల్"
+        }
+      },
+      {
+        "name": {
+          "en": "Goa ",
+          "hi": "गोवा",
+          "kn": "ಗೋವಾ ",
+          "ta": "கோவா",
+          "te": "గోవా"
+        }
+      },
+      {
+        "name": {
+          "en": "Sikkim ",
+          "hi": "सिक्किम ",
+          "kn": "ಸಿಕ್ಕಿಂ ",
+          "ta": "சிக்கிம் ",
+          "te": "సిక్కిం"
+        }
+      },
+      {
+        "name": {
+          "en": "Delhi",
+          "hi": "दिल्ली",
+          "kn": "ದೆಹಲಿ ",
+          "ta": "டெல்லி",
+          "te": "ఢిల్లీ"
+        }
+      },
+      {
+        "name": {
+          "en": "Rajasthan",
+          "hi": "राजस्थान",
+          "kn": "ರಾಜಸ್ಥಾನ",
+          "ta": "ராஜஸ்தான்",
+          "te": "రాజస్థాన్"
+        }
+      },
+      {
+        "name": {
+          "en": "Punjab",
+          "hi": "पंजाब",
+          "kn": "ಪಂಜಾಬ್",
+          "ta": "பஞ்சாப்",
+          "te": "పంజాబ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Himachal Pradesh",
+          "hi": "हिमाचल प्रदेश",
+          "kn": "ಹಿಮಾಚಲ ಪ್ರದೇಶ",
+          "ta": "ஹிமாச்சல பிரதேசம்",
+          "te": "హిమాచల్ ప్రదేశ్"
+        }
+      },
+      {
+        "name": {
+          "en": "Jammu and Kashmir",
+          "hi": "जम्मू और कश्मीर",
+          "kn": "ಜಮ್ಮು ಮತ್ತು ಕಾಶ್ಮೀರ",
+          "ta": "ஜம்மு மற்றும் காஷ்மீர்",
+          "te": "జమ్మూ మరియు కాశ్మీర్"
+        }
+      }
+    ]
+  },
+  {
+    "name": "vietnam"
+  },
+  {
+    "name": "brazil"
+  },
+  {
+    "regions": [],
+    "name": "democratic_republic_of_the_congo"
+  },
+  {
+    "regions": [],
+    "name": "panama"
+  },
+  {
+    "regions": [],
+    "name": "albania"
+  },
+  {
+    "regions": [],
+    "name": "bonaire"
+  },
+  {
+    "regions": [],
+    "name": "burundi"
+  },
+  {
+    "regions": [],
+    "name": "bulgaria"
+  },
+  {
+    "regions": [],
+    "name": "cameroon"
+  },
+  {
+    "regions": [],
+    "name": "chile"
+  },
+  {
+    "regions": [],
+    "name": "ethiopia"
+  },
+  {
+    "regions": [],
+    "name": "iran"
+  },
+  {
+    "regions": [],
+    "name": "kenya"
+  },
+  {
+    "regions": [],
+    "name": "iraq"
+  },
+  {
+    "regions": [],
+    "name": "north_macedonia"
+  },
+  {
+    "regions": [],
+    "name": "ecuador"
+  },
+  {
+    "regions": [],
+    "name": "niger"
+  },
+  {
+    "regions": [],
+    "name": "puerto_rico"
+  },
+  {
+    "name": "thailand"
+  },
+  {
+    "name": "china"
+  },
+  {
+    "name": "bangladesh",
+    "regions": []
+  },
+  {
+    "name": "france"
+  },
+  {
+    "name": "russia"
+  },
+  {
+    "name": "south_africa"
+  },
+  {
+    "name": "italy"
+  },
+  {
+    "name": "indonesia"
+  },
+  {
+    "name": "qatar"
+  },
+  {
+    "regions": [],
+    "name": "el_salvador"
+  },
+  {
+    "regions": [],
+    "name": "malaysia"
+  },
+  {
+    "regions": [],
+    "name": "yemen"
+  },
+  {
+    "regions": [],
+    "name": "nepal"
+  },
+  {
+    "regions": [],
+    "name": "pakistan"
+  },
+  {
+    "regions": [],
+    "name": "bosnia_herzegovina"
+  },
+  {
+    "regions": [],
+    "name": "croatia"
+  },
+  {
+    "regions": [],
+    "name": "costa_rica"
+  },
+  {
+    "regions": [],
+    "name": "greece"
+  },
+  {
+    "regions": [],
+    "name": "kosovo"
+  },
+  {
+    "regions": [],
+    "name": "mozambique"
+  },
+  {
+    "regions": [],
+    "name": "netherlands_antilles"
+  },
+  {
+    "regions": [],
+    "name": "portugal"
+  },
+  {
+    "regions": [],
+    "name": "republic_of_guinea"
+  },
+  {
+    "regions": [],
+    "name": "serbia"
+  },
+  {
+    "regions": [],
+    "name": "romania"
+  },
+  {
+    "regions": [],
+    "name": "slovakia"
+  },
+  {
+    "regions": [],
+    "name": "south_sudan"
+  },
+  {
+    "regions": [],
+    "name": "suriname"
+  },
+  {
+    "regions": [],
+    "name": "trinidad"
+  },
+  {
+    "regions": [],
+    "name": "turkey"
+  },
+  {
+    "regions": [],
+    "name": "ukraine"
+  },
+  {
+    "regions": [],
+    "name": "uganda"
+  },
+  {
+    "regions": [],
+    "name": "burkina_faso"
+  },
+  {
+    "regions": [],
+    "name": "hungary"
+  },
+  {
+    "regions": [],
+    "name": "liberia"
+  },
+  {
+    "regions": [],
+    "name": "venezuela"
+  },
+  {
+    "regions": [],
+    "name": "tunisia"
+  },
+  {
+    "regions": [],
+    "name": "global"
+  },
+  {
+    "name": "netherlands"
+  },
+  {
+    "name": "australia",
+    "regions": [
+      {
+        "name": {
+          "en": "Sydney"
+        }
+      },
+      {
+        "name": {
+          "en": "Melbourn"
+        }
+      }
+    ]
+  },
+  {
+    "name": "finland"
+  },
+  {
+    "name": "switzerland"
+  },
+  {
+    "name": "egypt"
+  },
+  {
+    "name": "philippines"
+  },
+  {
+    "name": "israel"
+  },
+  {
+    "regions": [],
+    "name": "argentina"
+  },
+  {
+    "regions": [],
+    "name": "guatemala"
+  },
+  {
+    "regions": [],
+    "name": "nicaragua"
+  },
+  {
+    "regions": [],
+    "name": "poland"
+  },
+  {
+    "regions": [],
+    "name": "ksa"
+  },
+  {
+    "regions": [],
+    "name": "sri_lanka"
+  },
+  {
+    "regions": [],
+    "name": "afghanistan"
+  },
+  {
+    "regions": [],
+    "name": "aruba"
+  },
+  {
+    "regions": [],
+    "name": "curacao"
+  },
+  {
+    "regions": [],
+    "name": "latvia"
+  },
+  {
+    "regions": [],
+    "name": "lithuania"
+  },
+  {
+    "regions": [],
+    "name": "morocco"
+  },
+  {
+    "regions": [],
+    "name": "sierra_leone"
+  },
+  {
+    "regions": [],
+    "name": "somalia"
+  },
+  {
+    "regions": [],
+    "name": "syria"
+  },
+  {
+    "regions": [],
+    "name": "togo"
+  },
+  {
+    "regions": [],
+    "name": "great_britain"
+  },
+  {
+    "regions": [],
+    "name": "haiti"
+  },
+  {
+    "regions": [],
+    "name": "ivory_coast"
+  },
+  {
+    "regions": [],
+    "name": "laos"
+  },
+  {
+    "regions": [],
+    "name": "other"
+  },
+  {
+    "name": "denmark"
+  },
+  {
+    "name": "hong_kong"
+  },
+  {
+    "name": "belgium"
+  },
+  {
+    "name": "spain"
+  },
+  {
+    "name": "norway"
+  },
+  {
+    "name": "uk"
+  },
+  {
+    "name": "sweden",
+    "regions": []
+  },
+  {
+    "name": "usa",
+    "regions": []
+  },
+  {
+    "name": "jordan",
+    "regions": []
+  },
+  {
+    "name": "singapore"
+  },
+  {
+    "name": "south_korea"
+  },
+  {
+    "name": "cambodia"
+  },
+  {
+    "regions": [],
+    "name": "columbia"
+  },
+  {
+    "regions": [],
+    "name": "honduras"
+  },
+  {
+    "regions": [],
+    "name": "mexico"
+  },
+  {
+    "regions": [],
+    "name": "uae"
+  },
+  {
+    "regions": [],
+    "name": "cape_verde"
+  },
+  {
+    "regions": [],
+    "name": "ghana"
+  },
+  {
+    "regions": [],
+    "name": "guyana"
+  },
+  {
+    "regions": [],
+    "name": "czech_republic"
+  },
+  {
+    "regions": [],
+    "name": "dominican_republic"
+  },
+  {
+    "regions": [],
+    "name": "eritrea"
+  },
+  {
+    "regions": [],
+    "name": "nigeria"
+  },
+  {
+    "regions": [],
+    "name": "peru"
+  },
+  {
+    "regions": [],
+    "name": "slovenia"
+  },
+  {
+    "regions": [],
+    "name": "bhutan"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "add_custom_view": "Create custom view",
+  "delete": "Delete",
+  "edit": "Edit",
+  "help_text_create": "Select a custom combination of filters above, give it a name and save it for easy access in the future",
+  "help_text_edit": "Change your selection of filters above and save changes to edit this custom view",
+  "is_public": "Share with team",
+  "my_custom_views": "My custom views",
+  "save_changes": "Save Changes",
+  "shared": "Shared custom views",
+  "title": "Custom views"
+}

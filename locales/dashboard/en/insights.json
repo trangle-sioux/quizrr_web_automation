@@ -1,0 +1,14 @@
+{
+  "performance_trend_over_time": "Performance of key messages over time",
+  "display": "Display",
+  "trend": "Trend",
+  "pages": {
+    "forced_labour": "Forced Labour",
+    "esr": "Equality, safety & respect",
+    "ohs": "Occupational Healty & Safety",
+    "child_labour": "Child Labour",
+    "life_skills": "Life skills"
+  },
+  "date": "Date",
+  "performance": "Performance"
+}

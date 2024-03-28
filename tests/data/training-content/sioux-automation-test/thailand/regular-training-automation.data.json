@@ -1,0 +1,562 @@
+{
+  "id": "sioux_automation_test",
+  "market": "thailand",
+  "app": {
+    "learning_modules": [
+      "639150a0a9cf2a4a88f29b03",
+      "639150a0a9cf2a4a88f29b00",
+      "639150a0a9cf2a4a88f29b18"
+    ],
+    "locales": ["en", "tw"],
+    "name": {
+      "en": "RegularTrainingAutomation",
+      "tw": "常规培训自动化"
+    },
+    "version": "v2"
+  },
+  "learning_modules": {
+    "639150a0a9cf2a4a88f29b03": {
+      "id": "nomination_election",
+      "name": {
+        "en": "Nomination & Election"
+      },
+      "locales": ["en", "tw"],
+      "locations": [
+        {
+          "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+          "type": "question"
+        },
+        {
+          "key": "-MrOFMRELp73tWjXz5tL",
+          "type": "movie"
+        },
+        {
+          "key": "-M6Zx3xr6mnKDRDrHURX",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [
+        {
+          "key": "-MrOFNmYqcMXsFxP4uT0",
+          "type": "movie"
+        },
+        {
+          "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zx5cOwjHFIovD72IQ",
+          "type": "question"
+        }
+      ],
+      "baseline_locations": [
+        {
+          "key": "-M6Zx4aDWUE55UXZdefC",
+          "type": "question"
+        }
+      ],
+      "quickquiz_locations": [
+        {
+          "key": "-M6Zx4qiBRaiuv234gwH",
+          "type": "question"
+        }
+      ],
+      "post_training_locations": [
+        {
+          "key": "-MrOFO55cGN3yXlncI7Y",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "advanced_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "baseline_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "post_training_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      }
+    },
+    "639150a0a9cf2a4a88f29b00": {
+      "id": "executive_summary",
+      "name": {
+        "en": "Executive Summary"
+      },
+      "locales": ["en", "tw"],
+      "locations": [
+        {
+          "key": "-M6ZwqWNFgGIahLv1Zc-",
+          "type": "movie"
+        },
+        {
+          "key": "-M6Zwr501WS3dX6oAYzi",
+          "type": "question"
+        },
+        {
+          "key": "-M6Zwrh0y9WWdsKFcA-s",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [],
+      "baseline_locations": [],
+      "quickquiz_locations": [],
+      "post_training_locations": [
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        }
+      ],
+      "locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "advanced_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "baseline_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "post_training_locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      }
+    },
+    "639150a0a9cf2a4a88f29b18": {
+      "id": "seeking_help",
+      "name": {
+        "en": "Seeking Help"
+      },
+      "locales": ["en", "tw"],
+      "locations": [
+        {
+          "key": "642a93d685c70525bbf171ea",
+          "type": "movie"
+        },
+        {
+          "key": "i_learned_something_new",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmyaqujQrC0nVK2x",
+          "type": "question"
+        },
+        {
+          "key": "-McoMmjtBaRh09WLXOM5",
+          "type": "question"
+        }
+      ],
+      "advanced_locations": [],
+      "baseline_locations": [],
+      "quickquiz_locations": [],
+      "post_training_locations": [],
+      "locations_content_locales": {
+        "vos": ["en"],
+        "movies": ["en"]
+      },
+      "advanced_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "baseline_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "quickquiz_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      },
+      "post_training_locations_content_locales": {
+        "vos": [],
+        "movies": []
+      }
+    }
+  },
+  "questions": {
+    "-M6Zwr501WS3dX6oAYzi": {
+      "answers": {
+        "-M6ZwrCE67SPyAMMjyf3": {
+          "text": {
+            "en": "Workers will have a good overview of what is going on in the factory, so they know what may be causing the problem"
+          }
+        },
+        "-M6ZwrGwXoo9Nxs10DN6": {
+          "text": {
+            "en": "Workers’ opinions and thoughts are not very important."
+          }
+        },
+        "-M6ZwrJHnjj-RMZeaLAe": {
+          "text": {
+            "en": "By listening to workers, the management can discipline the workers that have the wrong opinion."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwrCE67SPyAMMjyf3": true
+      },
+      "text": {
+        "en": "Why is it crucial that workers are heard?"
+      },
+      "title": {
+        "en": "Engagement"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:28:40.703Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zwrh0y9WWdsKFcA-s": {
+      "answers": {
+        "-M6ZwrqSmTx3eY_0PRQ-": {
+          "text": {
+            "en": "Regular meetings with participants from both management and worker representative committee members."
+          }
+        },
+        "-M6ZwrvY3IxugUeWJ6C0": {
+          "text": {
+            "en": "Monthly management meetings."
+          }
+        },
+        "-M6ZwryKo-Hp_8G8Je1J": {
+          "text": {
+            "en": "The annual employee feast."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6ZwrqSmTx3eY_0PRQ-": true
+      },
+      "text": {
+        "en": "To improve discussions and negotiations between workers and managers, the factory must set up systems for dialogue. What is a correct example of workplace dialogue?"
+      },
+      "title": {
+        "en": "Dialogue"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-28T08:07:09.084Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zx3QvZVUaKZ0O6Vpk": {
+      "answers": {
+        "-M6Zx3Y0tCZuFHEyuxim": {
+          "text": {
+            "en": "Free canteen food and dormitory provided by the factory"
+          }
+        },
+        "-M6Zx3bgwammbEffwPTF": {
+          "text": {
+            "en": "Cheaper prices for PPE and other equipment needed at work"
+          }
+        },
+        "-M6Zx3e2AjHVzRTZ9dHU": {
+          "text": {
+            "en": "Health safety training free of charge during working hours."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx3Y0tCZuFHEyuxim": true
+      },
+      "text": {
+        "en": "Non-monetary benefits can help workers save money. Which of the following is an another example of non-monetary benefits the factory can provide?"
+      },
+      "title": {
+        "en": "Benefits"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:32.198Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zx3xr6mnKDRDrHURX": {
+      "answers": {
+        "-M6Zx43vXskAmH7bklwC": {
+          "text": {
+            "en": "Because women and men may feel more comfortable raising sensitive issues with a representative of the same gender."
+          }
+        },
+        "-M6Zx48djIXLCJ0nE4D7": {
+          "text": {
+            "en": " Because women and men should never raise any issues with a representative of the opposite gender."
+          }
+        },
+        "-M6Zx4B-sPKtKGWLOEje": {
+          "text": {
+            "en": "Because women and men cannot cooperate as unnecessary conflicts may occur."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx43vXskAmH7bklwC": true
+      },
+      "text": {
+        "en": "Why is it important that both men and women are elected as worker representatives?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:24:45.397Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zx4aDWUE55UXZdefC": {
+      "answers": {
+        "-M6Zx4hIBKynFU4BLLNN": {
+          "text": {
+            "en": "Shop floor workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6Zx4lyREE5mcNWWKCx": {
+          "text": {
+            "en": "Management and workers elect a co-worker to represent their voice to the management."
+          }
+        },
+        "-M6Zx4oLSu6BwL_9Ch9Z": {
+          "text": {
+            "en": "The factory management chooses the nominees for the upcoming election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx4hIBKynFU4BLLNN": true
+      },
+      "text": {
+        "en": "What happens during a worker representative election?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:58.816Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zx4qiBRaiuv234gwH": {
+      "answers": {
+        "-M6Zx4xothYOTZzs8Le8": {
+          "text": {
+            "en": "That workers are free to elect representatives without influence from anyone else."
+          }
+        },
+        "-M6Zx51atiG86jcB5Apy": {
+          "text": {
+            "en": "That the management have the right to decide the nominees prior to the election."
+          }
+        },
+        "-M6Zx53yMqC_HaZUEE4Z": {
+          "text": {
+            "en": "That workers considers the advice of the management before the election."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx4xothYOTZzs8Le8": true
+      },
+      "text": {
+        "en": "What is the most important aspect when workers elect their worker representative?"
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:09.238Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-M6Zx5cOwjHFIovD72IQ": {
+      "answers": {
+        "-M6Zx5jVdX5Ym-XGVaO_": {
+          "text": {
+            "en": "A good worker representative can help solve problems and improve conditions for people at the workplace."
+          }
+        },
+        "-M6Zx5oF5Vj8CXc3VM-_": {
+          "text": {
+            "en": "A good worker representative can make sure that you receive a promotion and a higher wage."
+          }
+        },
+        "-M6Zx5qbtPdrT8nyQCIx": {
+          "text": {
+            "en": "A good worker representative can make sure that the cost for social benefits is not deducted from your wage."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-M6Zx5jVdX5Ym-XGVaO_": true
+      },
+      "text": {
+        "en": "How can electing a responsible worker representative make a difference for you?"
+      },
+      "title": {
+        "en": "Worker representatives"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:25:35.584Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-McoMmjtBaRh09WLXOM5": {
+      "answers": {
+        "-McoMmqCuZHh_1m4X_Jj": {
+          "text": {
+            "en": "An emergency contact like a friend or family member, your recruitment agency, NGOs, or a local government representative."
+          }
+        },
+        "-McoMmuRX3_qN_Q1jRDg": {
+          "text": {
+            "en": "A work contact like the factory hotline or your soon-to-be supervisor."
+          }
+        },
+        "-McoMmwW7KUkAG4y6Vev": {
+          "text": {
+            "en": "No contacts are needed until you arrive in the destination country."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-McoMmqCuZHh_1m4X_Jj": true
+      },
+      "text": {
+        "en": "Before you start your migration journey, what contact information should you keep with you?"
+      },
+      "title": {
+        "en": "Emergency contacts"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:29:50.444Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-McoMmyaqujQrC0nVK2x": {
+      "answers": {
+        "-McoMn3ugxTP0AiN4oz-": {
+          "text": {
+            "en": "Relevant government agencies, your embassy, or NGOs with staff that speak your language."
+          }
+        },
+        "-McoMn82GKJ88AzFCGVA": {
+          "text": {
+            "en": "Your friends and co-workers so long as they are the same nationality."
+          }
+        },
+        "-McoMnA7DzcXkPVofPMZ": {
+          "text": {
+            "en": "You should keep those concerns to yourself until your contract is complete."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-McoMn3ugxTP0AiN4oz-": true
+      },
+      "text": {
+        "en": "If you or someone you know are a victim of trafficking, forced labor, or other employment-related issues, where can you turn to seek help?"
+      },
+      "title": {
+        "en": "Seeking help"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:29:53.563Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "-MrOFO55cGN3yXlncI7Y": {
+      "answers": {
+        "-MrOFOAyp5v-Mi0GRUnC": {
+          "text": {
+            "en": "Workers cast their vote in a private place - a secret vote."
+          }
+        },
+        "-MrOFOEq43QuLzS34HaN": {
+          "text": {
+            "en": "Workers inform managers about their choice - behind a screen."
+          }
+        },
+        "-MrOFOGnYtQafPAybrc5": {
+          "text": {
+            "en": "Factory managers choose worker representatives."
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MrOFOAyp5v-Mi0GRUnC": true
+      },
+      "text": {
+        "en": "Worker representatives are elected by their co-workers. How should the election be carried out? "
+      },
+      "title": {
+        "en": "Election process"
+      },
+      "multiChoice": null,
+      "maxChoices": null,
+      "createdAt": "2023-04-04T10:26:22.590Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    },
+    "i_learned_something_new": {
+      "answers": {
+        "-MdKa9ogmWOXyeHFzKgn": {
+          "text": {
+            "en": ":yes:",
+            "tw": ":yes:"
+          }
+        },
+        "-MdKaA1Ziu8VnrVplnPT": {
+          "text": {
+            "en": ":no:",
+            "tw": ":no:"
+          }
+        }
+      },
+      "correctAnswers": {
+        "-MdKa9ogmWOXyeHFzKgn": true
+      },
+      "text": {
+        "en": "I learned something new from this Quizrr module.",
+        "tw": "我在這個訓練單元學到了新東西。"
+      },
+      "title": {
+        "en": "Post-Training Feedback",
+        "tw": "Post-Training Feedback"
+      },
+      "multiChoice": false,
+      "maxChoices": 1,
+      "createdAt": "2023-10-11T12:56:02.009Z",
+      "updatedAt": "2023-12-06T08:23:19.254Z"
+    }
+  },
+  "movies": {
+    "-M6ZwqWNFgGIahLv1Zc-": {
+      "file_name": "Executive_Summary-Scene_3",
+      "scene_name": "Scene_3"
+    },
+    "-MrOFMRELp73tWjXz5tL": {
+      "file_name": "Its_Only_A_Play",
+      "scene_name": "It's Only A Play"
+    },
+    "-MrOFNmYqcMXsFxP4uT0": {
+      "file_name": "Election_Day",
+      "scene_name": "Election Day"
+    },
+    "642a93d685c70525bbf171ea": {
+      "file_name": "642a93d685c70525bbf171ea",
+      "scene_name": "movie manual test new h264 transcode"
+    }
+  }
+}

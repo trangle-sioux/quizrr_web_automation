@@ -1,0 +1,21 @@
+{
+  "last_training_session": "Last training session: {{date}}",
+  "no_training_performance_result": "You don’t have any training results",
+  "show_low_perform_facilities": "Show only low performing facilities",
+  "sort_titles": {
+    "facility_name": "Facility Name",
+    "last_session": "Last Session",
+    "number_of_trainees": "Number of trainees",
+    "performance": "Performance"
+  },
+  "the_number_of_trainees": {
+    "trainee": "{{count}} trainee",
+    "trainee_plural": "{{count}} trainees"
+  },
+  "the_number_of_training_program": {
+    "training_program": "{{count}} training program",
+    "training_program_plural": "{{count}} training programs"
+  },
+  "training_performance_detail": "Performance detail",
+  "training_performance_title": "Training Performance"
+}

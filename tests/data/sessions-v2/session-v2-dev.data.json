@@ -1,0 +1,2025 @@
+[
+  {
+    "_id": {
+      "$oid": "65dc14a4cc36750cee8937e4"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc1456cc36750cee8923c4"
+        },
+        "idClean": "SUB4-AD1",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749433600000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "3d6204e2-57fd-4508-bb06-02fff587c26b",
+        "id": "3d6204e2-57fd-4508-bb06-02fff587c26b"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-MdKa9ogmWOXyeHFzKgn"]],
+        "_id": {
+          "$oid": "65dc14a4263fc32b1caca619"
+        },
+        "key": "i_learned_something_new",
+        "type": "question",
+        "duration": 2575,
+        "score": 1
+      },
+      {
+        "answers": [["-McoMn3ugxTP0AiN4oz-"]],
+        "_id": {
+          "$oid": "65dc14a4263fc32b1caca61a"
+        },
+        "key": "-McoMmyaqujQrC0nVK2x",
+        "type": "question",
+        "duration": 2021,
+        "score": 1
+      },
+      {
+        "answers": [["-McoMmqCuZHh_1m4X_Jj"]],
+        "_id": {
+          "$oid": "65dc14a4263fc32b1caca61b"
+        },
+        "key": "-McoMmjtBaRh09WLXOM5",
+        "type": "question",
+        "duration": 2058,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708922004813",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:33:24.813Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b18",
+    "learningModuleId": "seeking_help",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc1263263fc32b1caca3c3"
+    },
+    "finalized": {
+      "$date": "2024-02-26T04:33:39.938Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:33:40.869Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:33:40.869Z"
+    },
+    "baselineResults": []
+  },
+  {
+    "_id": {
+      "$oid": "65dc1490cc36750cee893285"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc1456cc36750cee8923c4"
+        },
+        "idClean": "SUB4-AD1",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749433600000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "3d6204e2-57fd-4508-bb06-02fff587c26b",
+        "id": "3d6204e2-57fd-4508-bb06-02fff587c26b"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6ZwrCE67SPyAMMjyf3"]],
+        "_id": {
+          "$oid": "65dc1490263fc32b1caca5fd"
+        },
+        "key": "-M6Zwr501WS3dX6oAYzi",
+        "type": "question",
+        "duration": 20795,
+        "score": 1
+      },
+      {
+        "answers": [["-M6ZwrqSmTx3eY_0PRQ-"]],
+        "_id": {
+          "$oid": "65dc1490263fc32b1caca5fe"
+        },
+        "key": "-M6Zwrh0y9WWdsKFcA-s",
+        "type": "question",
+        "duration": 1791,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921969547",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:32:49.547Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b00",
+    "learningModuleId": "executive_summary",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc1263263fc32b1caca3c3"
+    },
+    "finalized": {
+      "$date": "2024-02-26T04:33:19.655Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:33:20.561Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:33:20.561Z"
+    },
+    "baselineResults": []
+  },
+  {
+    "_id": {
+      "$oid": "65dc145bcc36750cee89252a"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc1456cc36750cee8923c4"
+        },
+        "idClean": "SUB4-AD1",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749433600000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "3d6204e2-57fd-4508-bb06-02fff587c26b",
+        "id": "3d6204e2-57fd-4508-bb06-02fff587c26b"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3e2AjHVzRTZ9dHU", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc146e263fc32b1caca5ce"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4498,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc146e263fc32b1caca5cf"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 3066,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921943604",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:32:23.604Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc1263263fc32b1caca3c3"
+    },
+    "baselineSessionKey": "65dc0ea2263fc32b1cac9efc-1708921943622",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1740,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T04:32:45.573Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:32:46.457Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:32:46.457Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc13e4cc36750cee890754"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc13a3cc36750cee88f572"
+        },
+        "idClean": "SUB3-AD1",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "a58cdc99-2cb6-437d-90bd-0f33f9aee173",
+        "id": "a58cdc99-2cb6-437d-90bd-0f33f9aee173"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6ZwrCE67SPyAMMjyf3"]],
+        "_id": {
+          "$oid": "65dc13e4263fc32b1caca56c"
+        },
+        "key": "-M6Zwr501WS3dX6oAYzi",
+        "type": "question",
+        "duration": 2499,
+        "score": 1
+      },
+      {
+        "answers": [["-M6ZwrqSmTx3eY_0PRQ-"]],
+        "_id": {
+          "$oid": "65dc13e4263fc32b1caca56d"
+        },
+        "key": "-M6Zwrh0y9WWdsKFcA-s",
+        "type": "question",
+        "duration": 1989,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921816158",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:30:16.158Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b00",
+    "learningModuleId": "executive_summary",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc1263263fc32b1caca3c3"
+    },
+    "finalized": {
+      "$date": "2024-02-26T04:30:27.619Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:30:28.569Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:30:28.569Z"
+    },
+    "baselineResults": []
+  },
+  {
+    "_id": {
+      "$oid": "65dc13a8cc36750cee88f720"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc13a3cc36750cee88f572"
+        },
+        "idClean": "SUB3-AD1",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "a58cdc99-2cb6-437d-90bd-0f33f9aee173",
+        "id": "a58cdc99-2cb6-437d-90bd-0f33f9aee173"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3e2AjHVzRTZ9dHU", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc13bf263fc32b1caca50a"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 5098,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc13bf263fc32b1caca50b"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 6586,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921764249",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:29:24.249Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc1263263fc32b1caca3c3"
+    },
+    "baselineSessionKey": "65dc0ea2263fc32b1cac9efc-1708921764267",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1521,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T04:29:50.538Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:29:51.455Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:29:51.455Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc119dcc36750cee8870dc"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc1198cc36750cee886fa9"
+        },
+        "idClean": "PL4-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749433600000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "36f7bb01-7d99-4eff-b943-a4aaee08acba",
+        "id": "36f7bb01-7d99-4eff-b943-a4aaee08acba"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc11ae263fc32b1caca2ba"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 2457,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc11ae263fc32b1caca2bb"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 3321,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921241573",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:20:41.573Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc0ea2263fc32b1cac9efc-1708921241592",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4hIBKynFU4BLLNN"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1597,
+        "score": 1
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T04:21:01.645Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:21:02.561Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:21:02.561Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc10d0cc36750cee883d93"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc10cbcc36750cee883c49"
+        },
+        "idClean": "PL3-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "0b68f654-5569-437b-a67d-3fcdd570a315",
+        "id": "0b68f654-5569-437b-a67d-3fcdd570a315"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc10e1263fc32b1caca226"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 3574,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc10e1263fc32b1caca227"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 2501,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc0ea2263fc32b1cac9efc-1708921037146",
+    "factory": {
+      "$oid": "65dc0ea2263fc32b1cac9efc"
+    },
+    "started": {
+      "$date": "2024-02-26T04:17:17.146Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc0ea2263fc32b1cac9efc-1708921037165",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1644,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T04:17:36.346Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T04:17:37.416Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T04:17:37.416Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4c02cc36750cee96c3ec"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4bfecc36750cee96c2d3"
+        },
+        "idClean": "4P4-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-780969600000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "079ecd0e-afce-46dd-ae8d-473687e4a03c",
+        "id": "079ecd0e-afce-46dd-ae8d-473687e4a03c"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4c11263fc32b1cacbcb8"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4223,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc4c11263fc32b1cacbcb9"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 2654,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4944263fc32b1cacba04-1708936191299",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    },
+    "started": {
+      "$date": "2024-02-26T08:29:51.299Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc4aef263fc32b1cacbbd5"
+    },
+    "baselineSessionKey": "65dc4944263fc32b1cacba04-1708936191322",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1455,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:30:08.982Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:30:09.744Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:30:09.744Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4ba0cc36750cee96abbb"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4b9ccc36750cee96aa87"
+        },
+        "idClean": "4P3-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-783648000000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "3be139ca-e7f8-4f79-b4fa-27b988c5af62",
+        "id": "3be139ca-e7f8-4f79-b4fa-27b988c5af62"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3e2AjHVzRTZ9dHU", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4baf263fc32b1cacbc6b"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4769,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc4baf263fc32b1cacbc6c"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 1930,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4944263fc32b1cacba04-1708936092569",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    },
+    "started": {
+      "$date": "2024-02-26T08:28:12.569Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc4aef263fc32b1cacbbd5"
+    },
+    "baselineSessionKey": "65dc4944263fc32b1cacba04-1708936092585",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4hIBKynFU4BLLNN"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1629,
+        "score": 1
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:28:30.818Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:28:31.574Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:28:31.574Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4a10cc36750cee964686"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4a0dcc36750cee964571"
+        },
+        "idClean": "4PL3-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-722995200000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "4e36f3de-3c02-4834-b625-2a8746ca0b67",
+        "id": "4e36f3de-3c02-4834-b625-2a8746ca0b67"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4a1f263fc32b1cacbafe"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 3087,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc4a1f263fc32b1cacbaff"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 2418,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4944263fc32b1cacba04-1708935693625",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    },
+    "started": {
+      "$date": "2024-02-26T08:21:33.625Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc4944263fc32b1cacba04-1708935693644",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1331,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:21:50.358Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:21:51.116Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:21:51.116Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4864cc36750cee95d9db"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4860cc36750cee95d899"
+        },
+        "idClean": "3P3-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-783561600000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "16d50a7f-ad20-4c02-aa11-bd19b6fb68ce",
+        "id": "16d50a7f-ad20-4c02-aa11-bd19b6fb68ce"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3e2AjHVzRTZ9dHU", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4875263fc32b1cacb927"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4802,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc4875263fc32b1cacb928"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 3094,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4525263fc32b1cacb58e-1708935264528",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    },
+    "started": {
+      "$date": "2024-02-26T08:14:24.528Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc46dd263fc32b1cacb7cb"
+    },
+    "baselineSessionKey": "65dc4525263fc32b1cacb58e-1708935264547",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1633,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:14:44.496Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:14:45.285Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:14:45.285Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4681cc36750cee955fc2"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc467ecc36750cee955e8e"
+        },
+        "idClean": "3PL4-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "d239d80e-2b50-4867-9a78-fd1dc43ea16a",
+        "id": "d239d80e-2b50-4867-9a78-fd1dc43ea16a"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc468f263fc32b1cacb775"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 3200,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc468f263fc32b1cacb776"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 2309,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4525263fc32b1cacb58e-1708934782528",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    },
+    "started": {
+      "$date": "2024-02-26T08:06:22.528Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc4525263fc32b1cacb58e-1708934782547",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1382,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:06:38.546Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:06:39.323Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:06:39.323Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4609cc36750cee95407f"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4605cc36750cee953f66"
+        },
+        "idClean": "3PL3-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-720489600000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "2a7fb347-2623-4df1-a293-aaefc45112c9",
+        "id": "2a7fb347-2623-4df1-a293-aaefc45112c9"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3bgwammbEffwPTF", "-M6Zx3e2AjHVzRTZ9dHU"]],
+        "_id": {
+          "$oid": "65dc4619263fc32b1cacb6d5"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 5614,
+        "score": 3
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc4619263fc32b1cacb6d6"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 2460,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4525263fc32b1cacb58e-1708934661896",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    },
+    "started": {
+      "$date": "2024-02-26T08:04:21.896Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc4525263fc32b1cacb58e-1708934661915",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1590,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:04:40.568Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:04:41.556Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:04:41.556Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc41f4cc36750cee943de0"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc41edcc36750cee943c4d"
+        },
+        "idClean": "2P4-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-717811200000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "6bd8a5bf-039a-48a1-a6e6-1a2044e1d7eb",
+        "id": "6bd8a5bf-039a-48a1-a6e6-1a2044e1d7eb"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4202263fc32b1cacb3d3"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 2325,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc4202263fc32b1cacb3d4"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 3379,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc3e2f263fc32b1cacb078-1708933614242",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    },
+    "started": {
+      "$date": "2024-02-26T07:46:54.242Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc402b263fc32b1cacb207"
+    },
+    "baselineSessionKey": "65dc3e2f263fc32b1cacb078-1708933614251",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 3673,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:47:14.218Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:47:14.959Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:47:14.959Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc3d8dcc36750cee931bb5"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc3d88cc36750cee931a53"
+        },
+        "idClean": "P4-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "46729290-17cd-4a0e-a1ef-2fc58f22cf68",
+        "id": "46729290-17cd-4a0e-a1ef-2fc58f22cf68"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc3d99263fc32b1cacb02c"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 1539,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc3d99263fc32b1cacb02d"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 1586,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc38e3263fc32b1cacacf4-1708932489279",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    },
+    "started": {
+      "$date": "2024-02-26T07:28:09.279Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc3b1d263fc32b1cacae88"
+    },
+    "baselineSessionKey": "65dc38e3263fc32b1cacacf4-1708932489298",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1718,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:28:24.281Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:28:25.003Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:28:25.003Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4a72cc36750cee965f54"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4a6ecc36750cee965e3d"
+        },
+        "idClean": "4PL4-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-723081600000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "0be997eb-1622-4860-8847-385d99651f8f",
+        "id": "0be997eb-1622-4860-8847-385d99651f8f"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4a7f263fc32b1cacbb5d"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 1853,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc4a7f263fc32b1cacbb5e"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 2711,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4944263fc32b1cacba04-1708935790924",
+    "factory": {
+      "$oid": "65dc4944263fc32b1cacba04"
+    },
+    "started": {
+      "$date": "2024-02-26T08:23:10.924Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc4944263fc32b1cacba04-1708935790949",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1487,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:23:26.637Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:23:27.405Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:23:27.405Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc48d9cc36750cee95f72a"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc48d6cc36750cee95f654"
+        },
+        "idClean": "3P4-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-720576000000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "ef128ce1-358f-4e75-bad8-29941d1ad248",
+        "id": "ef128ce1-358f-4e75-bad8-29941d1ad248"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc48e6263fc32b1cacb9a3"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 1387,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc48e6263fc32b1cacb9a4"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 2164,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc4525263fc32b1cacb58e-1708935382777",
+    "factory": {
+      "$oid": "65dc4525263fc32b1cacb58e"
+    },
+    "started": {
+      "$date": "2024-02-26T08:16:22.777Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc46dd263fc32b1cacb7cb"
+    },
+    "baselineSessionKey": "65dc4525263fc32b1cacb58e-1708935382794",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1500,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T08:16:38.171Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T08:16:38.961Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T08:16:38.961Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc4179cc36750cee941f62"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc4175cc36750cee941de5"
+        },
+        "idClean": "2P3-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-720662400000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "799adb00-f3d5-475b-b348-a57054568a2f",
+        "id": "799adb00-f3d5-475b-b348-a57054568a2f"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc4186263fc32b1cacb36a"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 2904,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc4186263fc32b1cacb36b"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 1834,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc3e2f263fc32b1cacb078-1708933493845",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    },
+    "started": {
+      "$date": "2024-02-26T07:44:53.845Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc402b263fc32b1cacb207"
+    },
+    "baselineSessionKey": "65dc3e2f263fc32b1cacb078-1708933493867",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1599,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:45:09.572Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:45:10.354Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:45:10.354Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc3fb2cc36750cee93ab95"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc3fafcc36750cee93aa6f"
+        },
+        "idClean": "2PL4-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749347200000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "31c58a19-f092-4530-9a44-6497c2f7caf5",
+        "id": "31c58a19-f092-4530-9a44-6497c2f7caf5"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3bgwammbEffwPTF", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc3fc3263fc32b1cacb1be"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4044,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc3fc3263fc32b1cacb1bf"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 1753,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc3e2f263fc32b1cacb078-1708933039727",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    },
+    "started": {
+      "$date": "2024-02-26T07:37:19.727Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc3e2f263fc32b1cacb078-1708933039746",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1640,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:37:38.747Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:37:39.479Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:37:39.479Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc3f3dcc36750cee938de9"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc3f39cc36750cee938ccd"
+        },
+        "idClean": "2PL2-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-746755200000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "e21e205f-3eeb-4f71-88c4-9c5393d0a7d9",
+        "id": "e21e205f-3eeb-4f71-88c4-9c5393d0a7d9"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc3f49263fc32b1cacb14d"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 3350,
+        "score": 1
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc3f49263fc32b1cacb14e"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 1343,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc3e2f263fc32b1cacb078-1708932922118",
+    "factory": {
+      "$oid": "65dc3e2f263fc32b1cacb078"
+    },
+    "started": {
+      "$date": "2024-02-26T07:35:22.118Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc3e2f263fc32b1cacb078-1708932922137",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1497,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:35:37.210Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:35:37.941Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:35:37.941Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc3d02cc36750cee92f951"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc3cedcc36750cee92f442"
+        },
+        "idClean": "PL3-A1-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749347200000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "b0adfe1e-67fb-4c9a-977a-99c93e87e618",
+        "id": "b0adfe1e-67fb-4c9a-977a-99c93e87e618"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3bgwammbEffwPTF", "-M6Zx3e2AjHVzRTZ9dHU"]],
+        "_id": {
+          "$oid": "65dc3d13263fc32b1cacafcc"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 4853,
+        "score": 3
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc3d13263fc32b1cacafcd"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 3701,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc38e3263fc32b1cacacf4-1708932333590",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    },
+    "started": {
+      "$date": "2024-02-26T07:25:33.590Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "team": {
+      "$oid": "65dc3b1d263fc32b1cacae88"
+    },
+    "baselineSessionKey": "65dc38e3263fc32b1cacacf4-1708932333612",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1899,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:26:11.110Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:26:11.844Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:26:11.844Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc3a16cc36750cee924066"
+    },
+    "level": "advanced",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc3a11cc36750cee923f1f"
+        },
+        "idClean": "PL4-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-749347200000"
+          }
+        },
+        "jobLevel": "manager",
+        "country": "thailand",
+        "generatedId": "80cd178d-c343-4fa5-be31-cdca2feb365f",
+        "id": "80cd178d-c343-4fa5-be31-cdca2feb365f"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3bgwammbEffwPTF", "-M6Zx3e2AjHVzRTZ9dHU"]],
+        "_id": {
+          "$oid": "65dc3a26263fc32b1cacae04"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 3558,
+        "score": 3
+      },
+      {
+        "answers": [["-M6Zx5jVdX5Ym-XGVaO_"]],
+        "_id": {
+          "$oid": "65dc3a26263fc32b1cacae05"
+        },
+        "key": "-M6Zx5cOwjHFIovD72IQ",
+        "type": "question",
+        "duration": 3926,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc38e3263fc32b1cacacf4-1708931602157",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    },
+    "started": {
+      "$date": "2024-02-26T07:13:22.157Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc38e3263fc32b1cacacf4-1708931602179",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4hIBKynFU4BLLNN"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1955,
+        "score": 1
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:13:41.512Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:13:42.679Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:13:42.679Z"
+    },
+    "writtenToLog": true
+  },
+  {
+    "_id": {
+      "$oid": "65dc39aacc36750cee922525"
+    },
+    "level": "basic",
+    "appRevision": "e7dd67119169c846baca474d1a732d567645b29b",
+    "appVersion": "5.1.5",
+    "platform": "ir-v1",
+    "players": [
+      {
+        "_id": {
+          "$oid": "65dc39a6cc36750cee922405"
+        },
+        "idClean": "PL3-19016",
+        "gender": "female",
+        "dateOfBirth": {
+          "$date": {
+            "$numberLong": "-752112000000"
+          }
+        },
+        "jobLevel": "worker",
+        "country": "thailand",
+        "generatedId": "cf6dfc9b-9b97-4157-9092-0db89b5e9044",
+        "id": "cf6dfc9b-9b97-4157-9092-0db89b5e9044"
+      }
+    ],
+    "results": [
+      {
+        "answers": [["-M6Zx3e2AjHVzRTZ9dHU", "-M6Zx3Y0tCZuFHEyuxim"]],
+        "_id": {
+          "$oid": "65dc39ba263fc32b1cacada0"
+        },
+        "key": "-M6Zx3QvZVUaKZ0O6Vpk",
+        "type": "question",
+        "duration": 5153,
+        "score": 2
+      },
+      {
+        "answers": [["-M6Zx43vXskAmH7bklwC"]],
+        "_id": {
+          "$oid": "65dc39ba263fc32b1cacada1"
+        },
+        "key": "-M6Zx3xr6mnKDRDrHURX",
+        "type": "question",
+        "duration": 2749,
+        "score": 1
+      }
+    ],
+    "sessionKey": "65dc38e3263fc32b1cacacf4-1708931494703",
+    "factory": {
+      "$oid": "65dc38e3263fc32b1cacacf4"
+    },
+    "started": {
+      "$date": "2024-02-26T07:11:34.703Z"
+    },
+    "market": "thailand",
+    "appId": "sioux_automation_test",
+    "language": "en",
+    "questionsVersion": 1,
+    "learningModuleKey": "639150a0a9cf2a4a88f29b03",
+    "learningModuleId": "nomination_election",
+    "isRefresher": false,
+    "buildType": "pwa",
+    "deviceType": "desktopWeb",
+    "deviceModel": "Macintosh",
+    "operatingSystem": "mac",
+    "baselineSessionKey": "65dc38e3263fc32b1cacacf4-1708931494715",
+    "baselineResults": [
+      {
+        "answers": ["-M6Zx4lyREE5mcNWWKCx"],
+        "key": "-M6Zx4aDWUE55UXZdefC",
+        "duration": 1456,
+        "score": 0
+      }
+    ],
+    "finalized": {
+      "$date": "2024-02-26T07:11:53.884Z"
+    },
+    "__v": 0,
+    "updatedAt": {
+      "$date": "2024-02-26T07:11:54.988Z"
+    },
+    "createdAt": {
+      "$date": "2024-02-26T07:11:54.988Z"
+    },
+    "writtenToLog": true
+  }
+]

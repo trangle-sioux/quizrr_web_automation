@@ -1,0 +1,142 @@
+[
+  {
+    "_id": {
+      "$oid": "65a8d96201674680ed5622b8"
+    },
+    "factories": [
+      {
+        "$oid": "65a8d96101674680ed5622b0"
+      }
+    ],
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65a8d9a101674680ed562312"
+    },
+    "factories": [
+      {
+        "$oid": "65a8d9a101674680ed56230a"
+      }
+    ],
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65a8d9d101674680ed56236d"
+    },
+    "factories": [
+      {
+        "$oid": "65a8d9d001674680ed562365"
+      }
+    ],
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65a8da0e01674680ed5623cb"
+    },
+    "factories": [
+      {
+        "$oid": "65a8da0e01674680ed5623c3"
+      }
+    ],
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65a8da3d01674680ed562424"
+    },
+    "factories": [
+      {
+        "$oid": "65a8da3d01674680ed56241c"
+      }
+    ],
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65dc0ea2263fc32b1cac9f05"
+    },
+    "factories": [
+      {
+        "$oid": "65dc0ea2263fc32b1cac9efc"
+      }
+    ],
+    "accessibleQRCodes": [
+      {
+        "$oid": "65dc0ea3263fc32b1cac9f0c"
+      }
+    ],
+    "name": "Test_C19016_Orgnaization_Name",
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65dc38e3263fc32b1cacacfd"
+    },
+    "factories": [
+      {
+        "$oid": "65dc38e3263fc32b1cacacf4"
+      }
+    ],
+    "accessibleQRCodes": [
+      {
+        "$oid": "65dc38e4263fc32b1cacad04"
+      }
+    ],
+    "name": "Test_C19016_Organization_Name",
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65dc3e2f263fc32b1cacb081"
+    },
+    "factories": [
+      {
+        "$oid": "65dc3e2f263fc32b1cacb078"
+      }
+    ],
+    "accessibleQRCodes": [
+      {
+        "$oid": "65dc3e30263fc32b1cacb088"
+      }
+    ],
+    "name": "Test_C19061_Organization_Name",
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65dc4526263fc32b1cacb597"
+    },
+    "factories": [
+      {
+        "$oid": "65dc4525263fc32b1cacb58e"
+      }
+    ],
+    "accessibleQRCodes": [
+      {
+        "$oid": "65dc4526263fc32b1cacb59e"
+      }
+    ],
+    "name": "Test_C19016_Organization_Name",
+    "accountType": "training_facility"
+  },
+  {
+    "_id": {
+      "$oid": "65dc4944263fc32b1cacba0d"
+    },
+    "factories": [
+      {
+        "$oid": "65dc4944263fc32b1cacba04"
+      }
+    ],
+    "accessibleQRCodes": [
+      {
+        "$oid": "65dc4945263fc32b1cacba14"
+      }
+    ],
+    "name": "Test_C19026_Organization_Name",
+    "accountType": "training_facility"
+  }
+]

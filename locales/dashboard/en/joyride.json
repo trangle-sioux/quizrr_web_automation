@@ -1,0 +1,180 @@
+{
+  "access_account": {
+    "content": [
+      "Access your account info and settings here. You can also continue setting up your organization here."
+    ]
+  },
+  "active_facility_training_plans_detail": {
+    "content": [
+      "You can see all active training plans and their current status here."
+    ]
+  },
+  "active_training_plans": {
+    "content": [
+      "Here is an overview of all your facilities with an active training plan."
+    ]
+  },
+  "add_comment": {
+    "content": [
+      "Select the specifications for the report you want to generate, and then add your remarks or recommendations. These will get added to the PDF report!"
+    ]
+  },
+  "add_user": {
+    "content": [
+      "Click here to invite your teammates to access the dashboard."
+    ]
+  },
+  "completed_facility_training_plans_detail": {
+    "content": [
+      "You can see all completed plans here."
+    ]
+  },
+  "completed_training_plans": {
+    "content": [
+      "Here is an overview of all your facilities with a completed training plan."
+    ]
+  },
+  "create_training_plan": {
+    "content": [
+      "Create Training Plans for the facility, this will not only help you set a pace and targets, but also allow you to keep track of your progress against the recommended training trajectory! You will see all your active training plans at the top of the page, and all completed training plans at the bottom."
+    ]
+  },
+  "custom_view_report": {
+    "content": [
+      "You know how you can select a custom combination of filters, give it a name and save it for easy access in the future? Now you can generate custom reports for those custom views! "
+    ]
+  },
+  "detail_view_switch": {
+    "content": [
+      "You can find a more detailed view of the progress here."
+    ]
+  },
+  "facility_active_training_plans_card": {
+    "content": [
+      "Each card represents a facility. You can find more detailed information about the facility's active training by clicking on it."
+    ]
+  },
+  "facility_completed_training_plans_card": {
+    "content": [
+      "Each card represents a facility. You can find more detailed information about the facility’s completed training by clicking on it."
+    ]
+  },
+  "facility_list": {
+    "content": [
+      "Get an overview of the training progress for each of your facilities, including whether or not they are on track with their training plans"
+    ]
+  },
+  "facility_summary": {
+    "content": [
+      "Get a quick summary of the cumulative training progress across different trainings conducted at the facility or within a program"
+    ]
+  },
+  "facilities_training_performance": {
+    "content": [
+      "Here is an overview of all your facilities with training performance."
+    ]
+  },
+  "facility_training_performance_card": {
+    "content": [
+      "Each card represents a facility. You can find more detailed information about the facility’s training performance by clicking on it."
+    ]
+  },
+  "facility_welcome": {
+    "content": [
+      "Let’s have a quick walkthrough. Here you’ll find insights from the training and manage your organization."
+    ],
+    "title": "Welcome to the dashboard"
+  },
+  "filter_custom_view": {
+    "content": [
+      "Select a combination of filters that you would regularly slice your data by, give it a name and save it as a custom view for easy access in the future!  You can also share it with your teammates!"
+    ]
+  },
+  "filter_facility": {
+    "content": [
+      "You can also filter the facilities by market or program level."
+    ]
+  },
+  "filter_facility_training_performance": {
+    "content": [
+      "You can also filter the facilities here."
+    ]
+  },
+  "finish": "Finish",
+  "invite_my_organization": "Invite my organization",
+  "navigation_panel": {
+    "content": [
+      "Navigate to different parts of the dashboard by clicking the relevant option. To go to the page of a facility or program you work with, open collapsible lists on the panel or  just look for them through the search bar.",
+      "Additionally, you can click on <ArrowLeft /> or <ArrowRight /> to close or open the menu."
+    ]
+  },
+  "next": "Next",
+  "pdf_csv": {
+    "content": [
+      "Select the type of report you want to generate."
+    ]
+  },
+  "profile": {
+    "content": [
+      "Manage and edit your log-in details"
+    ]
+  },
+  "progress_legend": {
+    "content": [
+      "You can see how many people have completed, started (but not yet finished), or not started the training here."
+    ]
+  },
+  "search_bar": {
+    "content": [
+      "You can search for a facility by name here."
+    ]
+  },
+  "show_low_perform_facilities": {
+    "content": [
+      "You can use this toggle to show only facilities with low training performance."
+    ]
+  },
+  "show_me_around": "Show me around!",
+  "show_off_track_training_plans": {
+    "content": [
+      "You can use this toggle to show only facilities off-track from their plan."
+    ]
+  },
+  "skip": "Skip",
+  "skip_for_now": "Skip for now",
+  "sort_bar": {
+    "content": [
+      "You can sort the facilities here."
+    ]
+  },
+  "start_training": {
+    "content": [
+      "Start your own training here."
+    ],
+    "title": "Start training"
+  },
+  "summary": {
+    "content": [
+      "Get a quick overview of the cumulative training progress across your facilities and programs.",
+      "One employee trained is counted as one unique user completing one training module",
+      "One module completed is when one training module is completed once by a user."
+    ]
+  },
+  "training_performance": {
+    "content": [
+      "Take a closer look at the baseline and module performance on both, basic as well as advanced levels. Click on the bullet list icon to look even more closely at the performance of each question."
+    ]
+  },
+  "training_plan_status": {
+    "content": [
+      "This is the status of your pace compared to the one set in the training plan."
+    ]
+  },
+  "welcome": {
+    "content": [
+      "The Quizrr Dashboard is built to help you keep track of training reach, progress and performance in your facilities and programs. How about a quick tour?"
+    ],
+    "title": "Welcome Aboard!"
+  },
+  "what_to_do_first": "What to do first?"
+}

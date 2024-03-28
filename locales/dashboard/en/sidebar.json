@@ -1,0 +1,26 @@
+{
+  "account": "Account",
+  "factories": "Production Units",
+  "insights": {
+    "title": "Insights",
+    "summary": "Summary"
+  },
+  "labor_agents": "Labor agents",
+  "overview": "Overview",
+  "programs": "Programs",
+  "reports": "Reports",
+  "site_languages": {
+    "en-us": "English",
+    "es": "Español",
+    "th": "ไทย",
+    "zh-cn": "中文"
+  },
+  "support": "Support",
+  "tools": "Tools",
+  "training": {
+    "active_training_plans": "Active training plans",
+    "completed_training_plans": "Completed training plans",
+    "title": "Training",
+    "training_performance": "Training Performance"
+  }
+}

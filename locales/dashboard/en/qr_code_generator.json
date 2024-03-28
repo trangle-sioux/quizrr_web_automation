@@ -1,0 +1,17 @@
+{
+  "copy_web_based_training_qrcode": "Copy web based QR code",
+  "download_image": "Download QR code",
+  "edit_existing_qrcode_message": "Try editing these existing QR codes instead:",
+  "edit_qrcode": "Edit QR code",
+  "enable_qrcode": "Enable QR code",
+  "errors": {
+    "no_quizzes": "There are no quizzes for creating QR code\n Please contact Quizrr for more details"
+  },
+  "please_select": "Please select {{missingFilters}}",
+  "revoke_qrcode": "Revoke QR code",
+  "send_by_email": "Send by email to {{ email }}",
+  "send_by_email_error": "There was an error sending the QR code to the facility. Please try again.",
+  "send_by_email_loading": "Sending email..",
+  "send_by_email_success": "Email was sent to {{ email }}",
+  "verify": "Verify QR code"
+}
