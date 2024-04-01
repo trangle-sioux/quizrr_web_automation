@@ -8,7 +8,7 @@ parameters:
     default: "dev"
   run_all_tests:
     type: boolean
-    default: false
+    default: true
 
 executors:
   playwright:
