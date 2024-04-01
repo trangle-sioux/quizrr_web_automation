@@ -49,12 +49,12 @@ commands:
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            if [ ! -d ~/Library/Caches/ms-playwright ]; then
+            if [ ! -d Library/Caches/ms-playwright ]; then
               npm run install:<< parameters.browser >>-browser
             fi
       - save_cache:
           paths:
-            - ~/Library/Caches/ms-playwright
+            - ./Library/Caches/ms-playwright
           key: playwright-browsers-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
