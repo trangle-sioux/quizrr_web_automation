@@ -2,10 +2,10 @@ version: 2.1
 parameters:
   test_run_ids:
     type: string
-    default: ""
+    default: ''
   testing_environment:
     type: string
-    default: "dev"
+    default: 'dev'
   run_all_tests:
     type: boolean
     default: true
@@ -13,10 +13,9 @@ parameters:
 executors:
   playwright:
     docker:
-      #- image: "cimg/node:18.10"
-      - image: "mcr.microsoft.com/playwright:v1.40.1"
-      #- image: "cimg/go:1.18.1"
+      - image: 'mcr.microsoft.com/playwright:v1.40.1'
     working_directory: ~/project
+
 commands:
   checkout_and_install_node:
     description: checkout and install dependencies
@@ -35,12 +34,28 @@ commands:
           key: 'node-deps-v1-{{ .Branch }}-{{checksum "package-lock.json"}}'
           paths:
             - ./node_modules
-  install_playwright_browsers:
-    description: install browsers of playwright
+
+  install_playwright_browser:
+    description: 'Install specified Playwright browser'
+    parameters:
+      browser:
+        type: string
+        default: 'chromium'
     steps:
+      - restore_cache:
+          keys:
+            - playwright-browsers-{{ checksum "yarn.lock" }}
       - run:
-          name: Install Playwright Browsers
-          command: "npm run install:browsers"
+          name: Install Playwright << parameters.browser >> Browser
+          command: |
+            if [ ! -d ~/Library/Caches/ms-playwright ]; then
+              npm run install:<< parameters.browser >>-browser
+            fi
+      - save_cache:
+          paths:
+            - ~/.cache/ms-playwright
+          key: playwright-browsers-{{ checksum "yarn.lock" }}
+
   get_gmail_authentications:
     description: fetch gmail credentials and token from Circle CI
     steps:
@@ -55,6 +70,7 @@ commands:
             fi
             echo $GMAIL_CREDENTIALS >> ./utils/gmail/gmail-credentials.json
             echo $GMAIL_TOKEN >> ./utils/gmail/gmail-token.json
+
   store_test_results_and_artifacts:
     steps:
       - store_test_results:
@@ -66,15 +82,19 @@ jobs:
   run_e2e_testing:
     executor:
       name: playwright
-    parallelism: 2
+    parallelism: 1
     resource_class: trangle-sioux/web_automation
     parameters:
       script:
         type: string
-        default: "test:chromium"
+        default: 'test:chromium'
+      browser:
+        type: string
+        default: 'chromium'
     steps:
       - checkout_and_install_node
-      - install_playwright_browsers
+      - install_playwright_browser:
+          browser: << parameters.browser >>
       - get_gmail_authentications
       - run:
           name: Execute End-to-End Testing
@@ -114,24 +134,28 @@ workflows:
             - >-
               web-automation-testing-<< pipeline.parameters.testing_environment >>
           script: test:safari
+          browser: 'safari'
 
-      # - run_e2e_testing:
-      #     name: firefox_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:firefox
+      - run_e2e_testing:
+          name: firefox_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:firefox
+          browser: 'firefox'
 
-      # - run_e2e_testing:
-      #     name: emulator_pixel_5_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:emulator-pixel-5
+      - run_e2e_testing:
+          name: emulator_pixel_5_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:emulator-pixel-5
+          browser: 'chromium'
 
-      # - run_e2e_testing:
-      #     name: simulator_iphone_12_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:simulator-iphone-12
+      - run_e2e_testing:
+          name: simulator_iphone_12_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:simulator-iphone-12
+          browser: 'safari'
