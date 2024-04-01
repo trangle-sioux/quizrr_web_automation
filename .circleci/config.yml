@@ -67,7 +67,7 @@ jobs:
     executor:
       name: playwright
     parallelism: 5
-    resource_class: trangle-sioux/my_test_container_runner
+    resource_class: trangle-sioux/web_automation
     parameters:
       script:
         type: string
