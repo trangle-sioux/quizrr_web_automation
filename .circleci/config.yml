@@ -44,7 +44,8 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - playwright-browsers-{{ checksum "yarn.lock" }}
+            - playwright-browsers-{{ checksum "package-lock.json" }}
+            - playwright-browsers-
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
@@ -53,8 +54,8 @@ commands:
             fi
       - save_cache:
           paths:
-            - ~/.cache/ms-playwright
-          key: playwright-browsers-{{ checksum "yarn.lock" }}
+            - ~/Library/Caches/ms-playwright
+          key: playwright-browsers-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
     description: fetch gmail credentials and token from Circle CI
@@ -134,7 +135,7 @@ workflows:
             - >-
               web-automation-testing-<< pipeline.parameters.testing_environment >>
           script: test:safari
-          browser: 'safari'
+          browser: 'webkit'
 
       - run_e2e_testing:
           name: firefox_e2e_testing
@@ -158,4 +159,4 @@ workflows:
             - >-
               web-automation-testing-<< pipeline.parameters.testing_environment >>
           script: test:simulator-iphone-12
-          browser: 'safari'
+          browser: 'webkit'
