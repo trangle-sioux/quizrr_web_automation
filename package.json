@@ -5,14 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test:all-platforms": "playwright test",
-    "test:chromium": "playwright test tests/e2e --project chromium",
+    "test:chromium": "playwright test tests/e2e --project chromium --grep @C22046",
     "test:safari": "playwright test tests/e2e --project webkit",
     "test:firefox": "playwright test tests/e2e --project firefox",
     "test:emulator-pixel-5": "playwright test tests/e2e --project \"Emulator Pixel 5\"",
     "test:simulator-iphone-12": "playwright test tests/e2e --project \"Simulator iphone 12\"",
     "test:api": "playwright test tests/api --project chromium",
     "test:show-report": "playwright show-report",
-    "install:browsers": "playwright install --with-deps",
+    "install:firefox-browser": "playwright install --with-deps firefox",
+    "install:webkit-browser": "playwright install --with-deps webkit",
+    "install:chromium-browser": "playwright install --with-deps chromium",
     "test:merge-report": "playwright merge-reports --reporter html ./blob-report",
     "code:check": "tsc --project ./tsconfig.json && eslint src --ext .js,.jsx,.ts,.tsx --max-warnings=0",
     "code:fix": "tsc --project ./tsconfig.json && eslint test --ext .js,.jsx,.ts,.tsx --fix"
