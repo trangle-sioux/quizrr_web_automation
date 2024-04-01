@@ -44,18 +44,30 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - playwright-browsers-{{ checksum "package-lock.json" }}
-            - playwright-browsers-
+            - playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
+            - playwright-<< parameters.browser >>-browser
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            if [ ! -d Library/Caches/ms-playwright ]; then
-              npm run install:<< parameters.browser >>-browser
+            CACHE_PLAYWRIGHT_BROWSER=~/Library/Caches/ms-playwright
+            array=()
+            if [  ${CACHE_PLAYWRIGHT_BROWSER} ]; then
+              for entry in "$CACHE_PLAYWRIGHT_BROWSER"/*
+              do
+                browser_name=${entry##*/}
+                array+=("${browser_name%%-*}")
+              done
+            fi
+            if ! [[ ${array[@]} =~ 'chromium' ]]
+              then
+                npm run install:<< parameters.browser >>-browser
+              else
+                echo "Array element exist"
             fi
       - save_cache:
           paths:
-            - ./Library/Caches/ms-playwright
-          key: playwright-browsers-{{ checksum "package-lock.json" }}
+            - ~/Library/Caches/ms-playwright
+          key: playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
     description: fetch gmail credentials and token from Circle CI
