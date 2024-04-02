@@ -51,7 +51,6 @@ commands:
           command: |
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/
             array=()
-            ls /ms-playwright/
             if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
               for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
               do
@@ -59,13 +58,9 @@ commands:
                 array+=("${browser_name%%-*}")
               done
             fi
-            echo ${array[@]} 
             if ! [[ ${array[@]} =~ << parameters.browser >> ]]
               then
-                echo "Array element is not exist"
-                # npm run install:<< parameters.browser >>-browser
-              else
-                echo "Array element exist"
+                npm run install:<< parameters.browser >>-browser
             fi
       - save_cache:
           paths:
@@ -120,7 +115,7 @@ jobs:
             TEST_ENVIRONMENT: << pipeline.parameters.testing_environment >>
           command: >
             SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run << parameters.script >> -- --shard=${SHARD}/${CIRCLE_NODE_TOTAL}
-      - store_test_results_and_artifacts
+      # - store_test_results_and_artifacts
 
 workflows:
   run_automation_testing_simple_workflow:
@@ -139,19 +134,19 @@ workflows:
       and:
         - equal: [true, << pipeline.parameters.run_all_tests >>]
     jobs:
-      # - run_e2e_testing:
-      #     name: chromium_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      - run_e2e_testing:
+          name: chromium_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
 
-      # - run_e2e_testing:
-      #     name: safari_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:safari
-      #     browser: 'webkit'
+      - run_e2e_testing:
+          name: safari_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:safari
+          browser: 'webkit'
 
       - run_e2e_testing:
           name: firefox_e2e_testing
@@ -161,18 +156,18 @@ workflows:
           script: test:firefox
           browser: 'firefox'
 
-      # - run_e2e_testing:
-      #     name: emulator_pixel_5_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:emulator-pixel-5
-      #     browser: 'chromium'
+      - run_e2e_testing:
+          name: emulator_pixel_5_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:emulator-pixel-5
+          browser: 'chromium'
 
-      # - run_e2e_testing:
-      #     name: simulator_iphone_12_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:simulator-iphone-12
-      #     browser: 'webkit'
+      - run_e2e_testing:
+          name: simulator_iphone_12_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:simulator-iphone-12
+          browser: 'webkit'
