@@ -49,7 +49,9 @@ commands:
 
       - run:
           name: Test browser
-          command: sudo ls ~/Library/Caches/ms-playwright
+          command: | 
+            ls ~/.cache/ms-playwright/
+            ls ~/Library/Caches/ms-playwright/
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
