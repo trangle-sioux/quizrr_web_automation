@@ -13,7 +13,7 @@ parameters:
 executors:
   playwright:
     docker:
-      - image: 'mcr.microsoft.com/playwright:v1.42.0-jammy'
+      - image: 'mcr.microsoft.com/playwright:v1.42.0'
     working_directory: ~/project
 
 commands:
@@ -50,23 +50,25 @@ commands:
           name: Install Playwright << parameters.browser >> Browser
           command: |
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/
-            array=()
+            # array=()
             ls /ms-playwright/
-            if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
-              for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
-              do
-                browser_name=${entry##*/}
-                array+=("${browser_name%%-*}")
-              done
-            fi
-            echo ${array[@]} 
-            if ! [[ ${array[@]} =~ << parameters.browser >> ]]
-              then
-                echo "Array element is not exist"
-                npm run install:<< parameters.browser >>-browser
-              else
-                echo "Array element exist"
-            fi
+            npm run install:<< parameters.browser >>-browser
+            ls /ms-playwright/
+            # if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
+            #   for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
+            #   do
+            #     browser_name=${entry##*/}
+            #     array+=("${browser_name%%-*}")
+            #   done
+            # fi
+            # echo ${array[@]} 
+            # if ! [[ ${array[@]} =~ << parameters.browser >> ]]
+            #   then
+            #     echo "Array element is not exist"
+            #     npm run install:<< parameters.browser >>-browser
+            #   else
+            #     echo "Array element exist"
+            # fi
       - save_cache:
           paths:
             - /ms-playwright/
