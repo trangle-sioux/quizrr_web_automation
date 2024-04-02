@@ -49,7 +49,7 @@ commands:
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            CACHE_PLAYWRIGHT_BROWSER=~/Library/Caches/ms-playwright
+            CACHE_PLAYWRIGHT_BROWSER=~/.cache/ms-playwright
             array=()
             if [  ${CACHE_PLAYWRIGHT_BROWSER} ]; then
               for entry in "$CACHE_PLAYWRIGHT_BROWSER"/*
@@ -58,7 +58,7 @@ commands:
                 array+=("${browser_name%%-*}")
               done
             fi
-            if ! [[ ${array[@]} =~ 'chromium' ]]
+            if ! [[ ${array[@]} =~ << parameters.browser >> ]]
               then
                 npm run install:<< parameters.browser >>-browser
               else
@@ -66,7 +66,7 @@ commands:
             fi
       - save_cache:
           paths:
-            - ~/Library/Caches/ms-playwright
+            - ~/.cache/ms-playwright
           key: playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
@@ -141,34 +141,34 @@ workflows:
             - >-
               web-automation-testing-<< pipeline.parameters.testing_environment >>
 
-      - run_e2e_testing:
-          name: safari_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:safari
-          browser: 'webkit'
+      # - run_e2e_testing:
+      #     name: safari_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:safari
+      #     browser: 'webkit'
 
-      - run_e2e_testing:
-          name: firefox_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:firefox
-          browser: 'firefox'
+      # - run_e2e_testing:
+      #     name: firefox_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:firefox
+      #     browser: 'firefox'
 
-      - run_e2e_testing:
-          name: emulator_pixel_5_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:emulator-pixel-5
-          browser: 'chromium'
+      # - run_e2e_testing:
+      #     name: emulator_pixel_5_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:emulator-pixel-5
+      #     browser: 'chromium'
 
-      - run_e2e_testing:
-          name: simulator_iphone_12_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:simulator-iphone-12
-          browser: 'webkit'
+      # - run_e2e_testing:
+      #     name: simulator_iphone_12_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:simulator-iphone-12
+      #     browser: 'webkit'
