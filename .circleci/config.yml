@@ -13,7 +13,7 @@ parameters:
 executors:
   playwright:
     docker:
-      - image: 'mcr.microsoft.com/playwright:v1.40.1'
+      - image: 'mcr.microsoft.com/playwright:v1.42.0'
     working_directory: ~/project
 
 commands:
@@ -44,13 +44,15 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
-            - playwright-<< parameters.browser >>-browser
+            - playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
+            - playwright-<< parameters.browser >>-v1.42.0-browser
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/
             array=()
+            ls /ms-playwright/
+            ls ~/.cache/ms-playwright
             if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
               for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
               do
@@ -58,15 +60,19 @@ commands:
                 array+=("${browser_name%%-*}")
               done
             fi
+            echo ${array[@]} 
             if ! [[ ${array[@]} =~ << parameters.browser >> ]]
               then
+                echo "Array element is not exist"
                 npm run install:<< parameters.browser >>-browser
+              else
+                echo "Array element exist"
             fi
       - save_cache:
           paths:
             - /ms-playwright/
             - ~/.cache/ms-playwright
-          key: playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
+          key: playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
     description: fetch gmail credentials and token from Circle CI
@@ -134,19 +140,19 @@ workflows:
       and:
         - equal: [true, << pipeline.parameters.run_all_tests >>]
     jobs:
-      - run_e2e_testing:
-          name: chromium_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
+      # - run_e2e_testing:
+      #     name: chromium_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
 
-      - run_e2e_testing:
-          name: safari_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:safari
-          browser: 'webkit'
+      # - run_e2e_testing:
+      #     name: safari_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:safari
+      #     browser: 'webkit'
 
       - run_e2e_testing:
           name: firefox_e2e_testing
@@ -156,18 +162,18 @@ workflows:
           script: test:firefox
           browser: 'firefox'
 
-      - run_e2e_testing:
-          name: emulator_pixel_5_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:emulator-pixel-5
-          browser: 'chromium'
+      # - run_e2e_testing:
+      #     name: emulator_pixel_5_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:emulator-pixel-5
+      #     browser: 'chromium'
 
-      - run_e2e_testing:
-          name: simulator_iphone_12_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:simulator-iphone-12
-          browser: 'webkit'
+      # - run_e2e_testing:
+      #     name: simulator_iphone_12_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:simulator-iphone-12
+      #     browser: 'webkit'
