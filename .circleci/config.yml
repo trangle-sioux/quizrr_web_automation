@@ -50,9 +50,7 @@ commands:
       - run:
           name: Test browser
           command: |
-            chmod +x ~/.cache/ms-playwright/
-            chmod +x ~/Library/Caches/ms-playwright/
-            ls ~/.cache/ms-playwright/
+            chmod -R 777 ~/Library/Caches/ms-playwright/
             ls ~/Library/Caches/ms-playwright/
       - run:
           name: Install Playwright << parameters.browser >> Browser
