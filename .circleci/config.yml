@@ -72,7 +72,6 @@ commands:
       - save_cache:
           paths:
             - /ms-playwright/
-            - ~/.cache/ms-playwright
           key: playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
