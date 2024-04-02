@@ -67,7 +67,8 @@ commands:
             echo ${array[@]} 
             if ! [[ ${array[@]} =~ 'chromium' ]]
               then
-                npm run install:<< parameters.browser >>-browser
+                echo "Array element is not exist"
+                # npm run install:<< parameters.browser >>-browser
               else
                 echo "Array element exist"
             fi
