@@ -49,9 +49,9 @@ commands:
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            if [ ! -d ms-playwright ]; then
+            if [ ! -d /ms-playwright/ ]; then
               ls /ms-playwright/
-              npm run install:<< parameters.browser >>-browser
+              # npm run install:<< parameters.browser >>-browser
             fi
       - save_cache:
           paths:
@@ -106,7 +106,7 @@ jobs:
             TEST_ENVIRONMENT: << pipeline.parameters.testing_environment >>
           command: >
             SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run << parameters.script >> -- --shard=${SHARD}/${CIRCLE_NODE_TOTAL}
-      # - store_test_results_and_artifacts
+      - store_test_results_and_artifacts
 
 workflows:
   run_automation_testing_simple_workflow:
