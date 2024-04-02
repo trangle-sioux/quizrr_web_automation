@@ -13,7 +13,7 @@ parameters:
 executors:
   playwright:
     docker:
-      - image: 'mcr.microsoft.com/playwright:v1.40.1'
+      - image: 'mcr.microsoft.com/playwright:v1.42.0-jammy'
     working_directory: ~/project
 
 commands:
@@ -44,8 +44,8 @@ commands:
     steps:
       - restore_cache:
           keys:
-            - playwright-<< parameters.browser >>-v1.40.1-browser-{{ checksum "package-lock.json" }}
-            - playwright-<< parameters.browser >>-v1.40.1-browser
+            - playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
+            - playwright-<< parameters.browser >>-v1.42.0-browser
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
@@ -72,7 +72,7 @@ commands:
           paths:
             - /ms-playwright/
             - ~/.cache/ms-playwright
-          key: playwright-<< parameters.browser >>-v1.40.1-browser-{{ checksum "package-lock.json" }}
+          key: playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
     description: fetch gmail credentials and token from Circle CI
