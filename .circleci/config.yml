@@ -46,6 +46,10 @@ commands:
           keys:
             - playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
             - playwright-<< parameters.browser >>-browser
+
+      - run:
+          name: Test browser
+          command: ls ~/Library/Caches/ms-playwright
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
