@@ -52,8 +52,8 @@ commands:
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/
             array=()
             ls /ms-playwright/
-            if [  ${CACHE_PLAYWRIGHT_BROWSER} ]; then
-              for entry in "$CACHE_PLAYWRIGHT_BROWSER"/*
+            if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
+              for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
               do
                 browser_name=${entry##*/}
                 array+=("${browser_name%%-*}")
@@ -62,7 +62,7 @@ commands:
             echo ${array[@]} 
             if ! [[ ${array[@]} =~ << parameters.browser >> ]]
               then
-                echo "Array element does not exist"
+                echo "Array element is not exist"
                 # npm run install:<< parameters.browser >>-browser
               else
                 echo "Array element exist"
@@ -120,7 +120,7 @@ jobs:
             TEST_ENVIRONMENT: << pipeline.parameters.testing_environment >>
           command: >
             SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run << parameters.script >> -- --shard=${SHARD}/${CIRCLE_NODE_TOTAL}
-      # - store_test_results_and_artifacts
+      - store_test_results_and_artifacts
 
 workflows:
   run_automation_testing_simple_workflow:
