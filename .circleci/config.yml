@@ -46,35 +46,17 @@ commands:
           keys:
             - playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
             - playwright-<< parameters.browser >>-browser
-
-      - run:
-          name: Test browser
-          command: |
-            # chmod -R 777 ~/Library/Caches/ms-playwright/
-            # ls ~/Library/Caches/ms-playwright/
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            CACHE_PLAYWRIGHT_BROWSER=~/Library/Caches/ms-playwright
-            array=()
-            if [  ${CACHE_PLAYWRIGHT_BROWSER} ]; then
-              for entry in "$CACHE_PLAYWRIGHT_BROWSER"/*
-              do
-                browser_name=${entry##*/}
-                array+=("${browser_name%%-*}")
-              done
-            fi
-            echo ${array[@]} 
-            if ! [[ ${array[@]} =~ 'chromium' ]]
-              then
-                echo "Array element is not exist"
-                # npm run install:<< parameters.browser >>-browser
-              else
-                echo "Array element exist"
+            if [ ! -d ms-playwright ]; then
+              ls /ms-playwright/
+              npm run install:<< parameters.browser >>-browser
             fi
       - save_cache:
           paths:
-            - ~/Library/Caches/ms-playwright/
+            - /ms-playwright/
+            - ~/.cache/ms-playwright
           key: playwright-<< parameters.browser >>-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
@@ -124,7 +106,7 @@ jobs:
             TEST_ENVIRONMENT: << pipeline.parameters.testing_environment >>
           command: >
             SHARD="$((${CIRCLE_NODE_INDEX}+1))"; npm run << parameters.script >> -- --shard=${SHARD}/${CIRCLE_NODE_TOTAL}
-      - store_test_results_and_artifacts
+      # - store_test_results_and_artifacts
 
 workflows:
   run_automation_testing_simple_workflow:
@@ -143,11 +125,11 @@ workflows:
       and:
         - equal: [true, << pipeline.parameters.run_all_tests >>]
     jobs:
-      - run_e2e_testing:
-          name: chromium_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
+      # - run_e2e_testing:
+      #     name: chromium_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
 
       # - run_e2e_testing:
       #     name: safari_e2e_testing
@@ -157,13 +139,13 @@ workflows:
       #     script: test:safari
       #     browser: 'webkit'
 
-      # - run_e2e_testing:
-      #     name: firefox_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:firefox
-      #     browser: 'firefox'
+      - run_e2e_testing:
+          name: firefox_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:firefox
+          browser: 'firefox'
 
       # - run_e2e_testing:
       #     name: emulator_pixel_5_e2e_testing
