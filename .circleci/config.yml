@@ -52,7 +52,6 @@ commands:
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/
             array=()
             ls /ms-playwright/
-            ls ~/.cache/ms-playwright
             if [  ${CACHE_PLAYWRIGHT_BROWSER_PATH} ]; then
               for entry in "$CACHE_PLAYWRIGHT_BROWSER_PATH"/*
               do
