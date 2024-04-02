@@ -49,7 +49,9 @@ commands:
 
       - run:
           name: Test browser
-          command: | 
+          command: |
+            chmod +x ~/.cache/ms-playwright/
+            chmod +x ~/Library/Caches/ms-playwright/
             ls ~/.cache/ms-playwright/
             ls ~/Library/Caches/ms-playwright/
       - run:
