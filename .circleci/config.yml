@@ -109,23 +109,23 @@ workflows:
               web-automation-testing-<< pipeline.parameters.testing_environment >>
           script: test:safari
 
-      # - run_e2e_testing:
-      #     name: firefox_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:firefox
+      - run_e2e_testing:
+          name: firefox_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:firefox
 
-      # - run_e2e_testing:
-      #     name: emulator_pixel_5_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:emulator-pixel-5
+      - run_e2e_testing:
+          name: emulator_pixel_5_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:emulator-pixel-5
 
-      # - run_e2e_testing:
-      #     name: simulator_iphone_12_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:simulator-iphone-12
+      - run_e2e_testing:
+          name: simulator_iphone_12_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:simulator-iphone-12
