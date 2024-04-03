@@ -50,7 +50,9 @@ commands:
           name: Install Playwright << parameters.browser >> Browser
           command: |
             CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/<< parameters.browser >>
+            ls /ms-playwright/<< parameters.browser >>
             ls /ms-playwright/
+            ls /ms-playwright/<< parameters.browser >>
             if [ ! -d /ms-playwright/<< parameters.browser >> ]; then
               npm run install:<< parameters.browser >>-browser
             fi
