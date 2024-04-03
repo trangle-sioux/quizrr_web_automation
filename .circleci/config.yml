@@ -49,16 +49,10 @@ commands:
       - run:
           name: Install Playwright << parameters.browser >> Browser
           command: |
-            CACHE_PLAYWRIGHT_BROWSER_PATH=/ms-playwright/<< parameters.browser >>
-            ls /ms-playwright/<< parameters.browser >>
-            ls /ms-playwright/
-            ls /ms-playwright/<< parameters.browser >>
-            if [ ! -d /ms-playwright/<< parameters.browser >> ]; then
-              npm run install:<< parameters.browser >>-browser
-            fi
+            npm run install:<< parameters.browser >>-browser
       - save_cache:
           paths:
-            - /ms-playwright/<< parameters.browser >>
+            - /ms-playwright/
           key: playwright-<< parameters.browser >>-v1.42.0-browser-{{ checksum "package-lock.json" }}
 
   get_gmail_authentications:
@@ -133,13 +127,13 @@ workflows:
       #       - >-
       #         web-automation-testing-<< pipeline.parameters.testing_environment >>
 
-      # - run_e2e_testing:
-      #     name: safari_e2e_testing
-      #     context:
-      #       - >-
-      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
-      #     script: test:safari
-      #     browser: 'webkit'
+      - run_e2e_testing:
+          name: safari_e2e_testing
+          context:
+            - >-
+              web-automation-testing-<< pipeline.parameters.testing_environment >>
+          script: test:safari
+          browser: 'webkit'
 
       # - run_e2e_testing:
       #     name: firefox_e2e_testing
@@ -149,13 +143,13 @@ workflows:
       #     script: test:firefox
       #     browser: 'firefox'
 
-      - run_e2e_testing:
-          name: emulator_pixel_5_e2e_testing
-          context:
-            - >-
-              web-automation-testing-<< pipeline.parameters.testing_environment >>
-          script: test:emulator-pixel-5
-          browser: 'chromium'
+      # - run_e2e_testing:
+      #     name: emulator_pixel_5_e2e_testing
+      #     context:
+      #       - >-
+      #         web-automation-testing-<< pipeline.parameters.testing_environment >>
+      #     script: test:emulator-pixel-5
+      #     browser: 'chromium'
 
       # - run_e2e_testing:
       #     name: simulator_iphone_12_e2e_testing
