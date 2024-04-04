@@ -61,7 +61,7 @@ jobs:
   run_e2e_testing:
     executor:
       name: playwright
-    parallelism: 1
+    parallelism: 4
     resource_class: trangle-sioux/web_automation
     parameters:
       script:
