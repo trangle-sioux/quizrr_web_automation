@@ -90,7 +90,7 @@ workflows:
     jobs:
       - run_e2e_testing:
           name: chromium_e2e_testing
-          parallelism: 5
+          parallelism_value: 5
           context:
             - >-
               web-automation-testing-<< pipeline.parameters.testing_environment >>
